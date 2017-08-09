@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2016, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string name="car_lockscreen_disclaimer_title">নিরাপদে গাড়ি চালান</string>
+    <string name="car_lockscreen_disclaimer_text">গাড়ি চালানোর পরিস্থিতিগুলো সম্পর্কে সম্পূর্ণরূপে সচেতন থাকুন এবং সবসময় প্রযোজ্য আইন মেনে চলুন। দিক নির্দেশনা ভুল, অসম্পূর্ণ, বিপজ্জনক, অসুবিধাজনক, নিষিদ্ধ বা প্রশাসনিক এলাকা পার হবার মত হতে পারে। ব্যবসায়িক তথ্যও ভুল বা অসম্পূর্ণ হতে পারে। ডাটা প্রকৃত সময়ের নয় এবং লোকেশনের সঠিকতার নিশ্চয়তাও প্রদান করা যায় না। গাড়ি চালানোর সময় আপনার যে মোবাইল ডিভাইস বা অ্যাপ অ্যান্ড্রোয়েড অটোর জন্য তৈরি নয় তা ব্যবহার করবেন না। </string>
+</resources>

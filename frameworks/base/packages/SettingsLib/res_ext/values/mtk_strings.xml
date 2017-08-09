@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>
+    <string name="wifi_security_wapi_certificate">WAPI Certificate</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the DUN profile. [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_dun" translatable="false">Dial up network</string>
+    <!-- Bluetooth settings. The user-visible summary string that is used whenever referring to the DUN profile (sharing contacts). [CHAR LIMIT=60] -->
+    <string name="bluetooth_profile_dun_summary" translatable="false">Use for dial up network</string>
+</resources>

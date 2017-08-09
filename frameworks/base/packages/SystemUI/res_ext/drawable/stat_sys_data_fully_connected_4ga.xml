@@ -1,0 +1,40 @@
+<!--
+ Copyright (C) 2014 MediaTek Inc.
+   Modification based on code covered by the mentioned copyright$
+   and/or permission notice(s).
+
+ Copyright (C) 2014 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="12dp"
+    android:height="17dp"
+    android:viewportWidth="14.667"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M3.258,5.525h0.496v0.921H3.258v1.346H2.125V6.517H0.071L0,5.737l2.125-3.966h1.204v3.754H3.258z
+M1.133,5.525h0.992V3.4 L2.054,3.542L1.133,5.525z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M8.43,7.013C8.287,7.296,8.004,7.508,7.721,7.65S7.013,7.934,6.445,7.934c-0.637,0-1.203-0.213-1.558-0.567
+S4.321,6.375,4.321,5.596V3.967c0-0.779,0.212-1.346,0.567-1.7C5.242,1.913,5.737,1.7,6.375,1.7c0.709,0,1.204,0.142,1.487,0.496
+c0.284,0.354,0.496,0.85,0.496,1.488H7.225c0-0.354-0.07-0.638-0.141-0.779C7.013,2.763,6.729,2.621,6.375,2.621
+c-0.283,0-0.496,0.142-0.638,0.354S5.454,3.542,5.454,3.967v1.629c0,0.496,0.071,0.779,0.212,0.992
+C5.809,6.8,6.092,6.941,6.375,6.941c0.213,0,0.425,0,0.496-0.07C6.941,6.8,7.084,6.729,7.154,6.658V5.525H6.375v-0.85H8.43V7.013z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M 12.415 4.231 L 12.415 2.281 L 11.315 2.281 L 11.315 4.231 L 9.368 4.231 L 9.368 5.332 L 11.315 5.332 L 11.315 7.281 L 12.415 7.281 L 12.415 5.332 L 14.368 5.332 L 14.368 4.231 Z" />
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaptivePortalLogin</string>
+    <string name="action_use_network">এই নেটওয়ার্ক এভাবে ব্যবহার করুন</string>
+    <string name="action_do_not_use_network">এই নেটওয়ার্ক ব্যবহার করবেন না</string>
+    <string name="action_bar_label">নেটওয়ার্কে সাইন-ইন করুন</string>
+    <string name="ssl_error_example">যেমন,লগইনপৃষ্ঠাহয়তদেখানোসংস্থারনয়।</string>
+    <string name="ssl_error_continue">ব্রাউজারেরমাধ্যমেঅব্যাহতরাখুন</string>
+</resources>

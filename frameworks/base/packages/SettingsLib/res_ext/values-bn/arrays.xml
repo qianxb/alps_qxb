@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="wifi_status">
+    <item></item>
+    <item>স্ক্যান হচ্ছে\u2026</item>
+    <item>সংযুক্ত হচ্ছে\u2026</item>
+    <item>সত্যপ্রতিপাদন করা হচ্ছে\u2026</item>
+    <item>আইপি ঠিকানা লাভ করছে\u2026</item>
+    <item>সংযুক্ত</item>
+    <item>সাময়িকভাবে স্থগিত করা হয়েছে</item>
+    <item>সংযোগ বিচ্ছিন্ন করা হচ্ছে\u2026</item>
+    <item>সংযোগ বিচ্ছিন্ন করা হয়েছে</item>
+    <item>অসফল</item>
+    <item>ব্লক করা হয়েছে</item>
+    <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+  </string-array>
+
+  <string-array name="wifi_status_with_ssid">
+    <item></item>
+    <item>স্ক্যান হচ্ছে\u2026</item>
+    <item>সংযুক্ত হচ্ছে %1$s\u2026-তে</item>
+    <item>সত্যপ্রতিপাদন করা হচ্ছে %1$s\u2026 এর সাথে</item>
+    <item>আইপি ঠিকানা সংগ্রহ করা হচ্ছে %1$s\u2026 থেকে</item>
+    <item>সংযুক্ত হচ্ছে %1$s সাথে</item>
+    <item>সাময়িকভাবে বাতিল করা হয়েছে</item>
+    <item>বিচ্ছিন্ন করা হচ্ছে %1$s\u2026 থেকে</item>
+    <item>বিচ্ছিন্ন করা হয়েছে</item>
+    <item>অসফল</item>
+    <item>ব্লক করা হয়েছে</item>
+    <item>সাময়িকভাবে খারাপ সংযোগ পরিহার করা হচ্ছে</item>
+  </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>কখনো চেক করবেন না</item>
+        <item>কেবল ডিআরএম বিষয়বস্তুর জন্য চেক করুন</item>
+        <item>সবসময় চেক করুন</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>কখনো এইচডিসিপি চেকিং ব্যবহার করবেন না</item>
+        <item>কেবল ডিআরএম বিষয়বস্তুর জন্য চেক করতে এইচডিসিপি ব্যবহার করুন</item>
+        <item>সব সময় এইচডিসিপি চেকিং ব্যবহার করুন</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>বন্ধকরুন</item>
+        <item>৬৪কে</item>
+        <item>২৫৬কে</item>
+        <item>১এম</item>
+        <item>৪এম</item>
+        <item>১৬এম</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>বন্ধকরুন</item>
+        <item>৬৪কে</item>
+        <item>২৫৬কে</item>
+        <item>১এম</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>বন্ধকরুন</item>
+        <item>৫৪কে প্রতি লগ বাফারে</item>
+        <item>২৫৬কে প্রতি লগ বাফারে</item>
+        <item>১এম প্রতি লগ বাফারে</item>
+        <item>৪এম প্রতি লগ বাফারে</item>
+        <item>১৬ প্রতি লগ বাফারে</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ</item>
+        <item>এনিমেশনের স্কেল ০.৫x</item>
+        <item>অ্যানিমেশন স্কেল 1x</item>
+        <item>এনিমেশনের স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল 2x</item>
+        <item>এনিমেশনের স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ</item>
+        <item>এনিমেশনের স্কেল ০.৫x</item>
+        <item>অ্যানিমেশন স্কেল 1x</item>
+        <item>এনিমেশনের স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল 2x</item>
+        <item>এনিমেশনের স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>অ্যানিমেশন বন্ধ</item>
+        <item>এনিমেশনের স্কেল ০.৫x</item>
+        <item>অ্যানিমেশন স্কেল 1x</item>
+        <item>এনিমেশনের স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল 2x</item>
+        <item>এনিমেশনের স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>কোনটিনয়</item>
+        <item>480P</item>
+        <item>480p(নিরাপদ)</item>
+        <item>720P</item>
+        <item>720p(নিরাপদ)</item>
+        <item>1080P</item>
+        <item>1080p(নিরাপদ)</item>
+        <item>4K</item>
+        <item>4K(নিরাপদ)</item>
+        <item>4K(উন্নত)</item>
+        <item>4K(উন্নত,নিরাপদ)</item>
+        <item>720p,1080p(দ্বৈতস্ক্রিন)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>কোনটিনয়</item>
+        <item>লগকেট</item>
+        <item>সিসট্রেস (গ্রাফিক্সস)</item>
+        <item>কল স্ট্যাক অন glত্রুটি পেল</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>বন্ধকরুন</item>
+        <item>নন-রেকটেঙ্গুলার ক্লিপ অঞ্চলটি নীল রং দিয়ে আঁকুন</item>
+        <item>পরিক্ষীত অংকন নির্দেশনাগুলো সবুজ রং দিয়ে হাইলাইট করুন </item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>বন্ধকরুন</item>
+        <item>বার অনুসারে স্ক্রিনে</item>
+        <item>মধ্যে adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>বন্ধকরুন</item>
+        <item>ওভারড্রয়ের এলাকাগুলো দেখান</item>
+        <item>ডটারএনোমেলির এলাকাগুলো দেখান</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>আদর্শ সীমা</item>
+        <item>কোন ব্যাকগ্রাউন্ড প্রক্রিয়া নেই</item>
+        <item>খুব বেশি হলে ১টি প্রক্রিয়া</item>
+        <item>বেশি হলে ২টি প্রক্রিয়া</item>
+        <item>খুব বেশি হলে ৩টি প্রক্রিয়া</item>
+        <item>বেশি হলে ৪টি প্রক্রিয়া</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>আপনারসিমকার্ডস্থায়ীভাবেনিষ্ক্রিয়করাহয়েছে।\nঅন্যসিমকার্ডেরজন্যআপনারওয়্যারলেসসার্ভিসপ্রোভাইডারেরসাথেযোগাযোগকরুন।</item>
+        <item>এমটিপি (মিডিয়া ট্রান্সফার প্রটোকল)</item>
+        <item>পিটিপি (পিকচার ট্রান্সফার প্রটোকল)</item>
+        <item>আরএনডিআইএস (ইউএসবি ইথারনেট)</item>
+        <item>অডিও উৎ স</item>
+        <item>MIDI</item>
+    </string-array>
+</resources>

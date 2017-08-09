@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">নেটওয়ার্ক স্ক্যান করতে পারছে না</string>
+    <string name="wifi_security_none">কোনটিনয়</string>
+    <string name="wifi_remembered">সংরক্ষিত</string>
+    <string name="wifi_disabled_generic">নিষ্ক্রিয়</string>
+    <string name="wifi_disabled_network_failure">আইপি কনফিগারেশনে ব্যর্থতা</string>
+    <string name="wifi_disabled_wifi_failure">ওয়াইফাই সংযোগে ব্যর্থতা</string>
+    <string name="wifi_disabled_password_failure">সত্যপ্রতিপাদনে সমস্যা</string>
+    <string name="wifi_not_in_range">রেঞ্জের মধ্যে নেই</string>
+    <string name="wifi_no_internet">ইন্টারনেট সংযোগ খুঁজে পাওয়া যায়নি, স্বয়ংক্রিয়ভাবে পুনরায় সংযুক্ত হবে না।</string>
+    <string name="saved_network">সংরক্ষিত হয়েছে <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="connected_via_wfa">ওয়াই\u2011ফাই সহায়ক দিয়ে সংযুক্ত</string>
+    <string name="connected_via_passpoint">%1$s দিয়ে সংযুক্ত</string>
+    <string name="available_via_passpoint">%1$s দিয়ে পাওয়া যায়</string>
+    <string name="wifi_connected_no_internet">সংযুক্ত, ইন্টারনেট নেই</string>
+    <string name="bluetooth_disconnected">বিচ্ছিন্ন</string>
+    <string name="bluetooth_disconnecting">বিচ্ছিন্ন হচ্ছে\u2026</string>
+    <string name="bluetooth_connecting">সংযুক্ত হচ্ছে\u2026</string>
+    <string name="bluetooth_connected">সংযুক্ত</string>
+    <string name="bluetooth_pairing">পেয়ার হচ্ছে\u2026</string>
+    <string name="bluetooth_connected_no_headset">সংযুক্ত (কোন ফোন নেই)</string>
+    <string name="bluetooth_connected_no_a2dp">সংযুক্ত (কোন মিডিয়া নেই)</string>
+    <string name="bluetooth_connected_no_map">সংযুক্ত (বার্তায় কোন প্রবেশাধিকার নেই)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">সংযুক্ত (কোন ফোন বা মিডিয়া নেই)</string>
+    <string name="bluetooth_profile_a2dp">মিডিয়া অডিও</string>
+    <string name="bluetooth_profile_headset">ফোন অডিও</string>
+    <string name="bluetooth_profile_opp">ফাইলস্থানান্তর</string>
+    <string name="bluetooth_profile_hid">ইনপুট ডিভাইস</string>
+    <string name="bluetooth_profile_pan">ইন্টারনেট ব্যবহারের সুযোগ</string>
+    <string name="bluetooth_profile_pbap">পরিচিতজন শেয়ার করা</string>
+    <string name="bluetooth_profile_pbap_summary">পরিচিতজন শেয়ার করার জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_profile_pan_nap">ইন্টারনেট সংযোগ শেয়ার করা</string>
+    <string name="bluetooth_profile_map">বার্তায় প্রবেশাধিকার</string>
+    <string name="bluetooth_profile_sap">সিমে প্রবেশাধিকার</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">মিডিয়া অডিও\'র সাথে সংযুক্ত</string>
+    <string name="bluetooth_headset_profile_summary_connected">ফোন অডিও\'র সাথে সংযুক্ত</string>
+    <string name="bluetooth_opp_profile_summary_connected">ফাইল স্থানান্তর সার্ভারের সাথে সংযুক্ত</string>
+    <string name="bluetooth_map_profile_summary_connected">মানচিত্রের সাথে সংযুক্ত</string>
+    <string name="bluetooth_sap_profile_summary_connected">এসএপিতে সংযুক্ত</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">ফাইল স্থানান্তর সার্ভারের সাথে সংযুক্ত নয়।</string>
+    <string name="bluetooth_hid_profile_summary_connected">ইনপুট ডিভাইসের সাথে সংযুক্ত</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">ইন্টারনেটে প্রবেশের জন্য ডিভাইসের সাথে সংযুক্ত</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">ডিভাইসের সাথে স্থানীয় ইন্টারনেট সংযোগ শেয়ার করছে</string>
+    <string name="bluetooth_pan_profile_summary_use_for">ইন্টারনেটে প্রবেশের জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_map_profile_summary_use_for">মানচিত্রের জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_sap_profile_summary_use_for">সিমে প্রবেশাধিকারের জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">মিডিয়া অডিও\'র জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_headset_profile_summary_use_for">ফোন অডিও\'র জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_opp_profile_summary_use_for">ফাইল ট্রান্সফারের জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_hid_profile_summary_use_for">ইনপুটের জন্য ব্যবহার করুন</string>
+    <string name="bluetooth_pairing_accept">জোড়া</string>
+    <string name="bluetooth_pairing_accept_all_caps">জোড়া</string>
+    <string name="bluetooth_pairing_decline">বাতিলকরুন</string>
+    <string name="bluetooth_pairing_will_share_phonebook">সংযুক্ত থাকা অবস্থায় আপনার পরিচিতজন এবং কল ইতিহাসে প্রবেশের অনুমতির জোড়া তৈরি করা।</string>
+    <string name="bluetooth_pairing_error_message"><xliff:g id="device_name">%1$s</xliff:g> সাথে পেয়ার করতে পারেনি।</string>
+    <string name="bluetooth_pairing_pin_error_message">ভুল পিন বা পাসকির জন্য <xliff:g id="device_name">%1$s</xliff:g> সাথে পেয়ার করতে পারেনি।</string>
+    <string name="bluetooth_pairing_device_down_error_message"><xliff:g id="device_name">%1$s</xliff:g> সাথে যোগাযোগ করতে পারছে না।</string>
+    <string name="bluetooth_pairing_rejected_error_message">  <xliff:g id="device_name">%1$s</xliff:g> কর্তৃক জোড়া তৈরি প্রত্যাখাত হয়েছে। </string>
+    <string name="accessibility_wifi_off">ওয়াইফাই বন্ধ।</string>
+    <string name="accessibility_no_wifi">ওয়াইফাই এর সংযোগ বিচ্ছিন্ন করা হয়েছে।</string>
+    <string name="accessibility_wifi_one_bar">ওয়াইফাই এক বার।</string>
+    <string name="accessibility_wifi_two_bars">ওয়াইফাই দুই বার।</string>
+    <string name="accessibility_wifi_three_bars">ওয়াইফাই তিন বার।</string>
+    <string name="accessibility_wifi_signal_full">ওয়াই-ফাইতে পূর্ণ সংকেত আছে ।</string>
+    <string name="process_kernel_label">অ্যানড্রয়িড ওএস</string>
+    <string name="data_usage_uninstalled_apps">অ্যাপ সরান</string>
+    <string name="data_usage_uninstalled_apps_users">অ্যাপস ও ব্যবহারকারী সরিয়ে ফেলুন</string>
+    <string name="tether_settings_title_usb">ইউএসবি টেথারিং</string>
+    <string name="tether_settings_title_wifi">বহনযোগ্য হটস্পট</string>
+    <string name="tether_settings_title_bluetooth">ব্লুটুথ টিথারিং</string>
+    <string name="tether_settings_title_usb_bluetooth">টিথারিং</string>
+    <string name="tether_settings_title_all">টেথারিং &amp; বহনযোগ্য হটস্পট</string>
+    <string name="managed_user_title">সব কাজের অ্যাপ</string>
+    <string name="user_guest">অতিথি</string>
+    <string name="unknown">অজানা</string>
+    <string name="running_process_item_user_label">ব্যবহারকারী: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">কিছুডিফল্টসেটকরা</string>
+    <string name="launch_defaults_none">কোনোডিফল্টসেটনেই</string>
+    <skip/>
+    <string name="tts_settings">লেখা-থেকে-বলা সেটিং</string>
+    <string name="tts_settings_title">লেখা-থেকে-বলা আউটপুট</string>
+    <string name="tts_default_rate_title">বক্তব্যের হার</string>
+    <string name="tts_default_rate_summary">যে গতিতে লেখা মুখে বলা হবে</string>
+    <string name="tts_default_pitch_title">পিচ করুন</string>
+    <string name="tts_default_pitch_summary">সিনক্রোনাইজকৃত বক্তৃতার কণ্ঠস্বরকে প্রভাবিত করে </string>
+    <string name="tts_default_lang_title">ভাষা</string>
+    <string name="tts_lang_use_system">সিস্টেম ভাষা ব্যবহার করুন</string>
+    <string name="tts_lang_not_selected">ভাষা নির্বাচন করা হয়নি</string>
+    <string name="tts_default_lang_summary">মৌখিক বক্তব্যের জন্য ভাষা-নির্দিষ্ট কণ্ঠ সেট করে</string>
+    <string name="tts_play_example_title">একটি উদাহরণ শুনুন</string>
+    <string name="tts_play_example_summary">স্পিচ সিনথেসিসের একটি সংক্ষিপ্ত দৃষ্টান্ত প্লে করুন</string>
+    <string name="tts_install_data_title">কন্ঠ ডাটা ইনস্টল করুন</string>
+    <string name="tts_install_data_summary">স্পিচ সিনথেসিসের জন্য প্রয়োজনীয় কণ্ঠ ডাটা ইনস্টল করুন</string>
+    <string name="tts_engine_security_warning">এই স্পিচ সিনথেসিস ইঞ্জিন ব্যক্তিগত ডাটা যেমন পাসওয়ার্ড ও ক্রেডিটকার্ড নম্বরসহ বলা হবে হয়ত এমনসব লেখাই সংগ্রহ করতে পারবে। এটি  <xliff:g id="tts_plugin_engine_name">%s</xliff:g> ইঞ্জিন থেকে আসছে আপনি কি এই স্পিচ সিনথেসিস ইঞ্জিন সক্রিয় করতে চান? </string>
+    <string name="tts_engine_network_required">লেখা থেকে কথায় পরিণত হতে এই ভাষার একটি কার্যকর নেটওয়ার্ক সংযোগ প্রয়োজন।</string>
+    <string name="tts_default_sample_string">এটি স্পিচ সিনথেসিসের একটি উদাহরণ</string>
+    <string name="tts_status_title">ডিফল্ট ভাষার অবস্থান</string>
+    <string name="tts_status_ok"><xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> পুরোপুরিভাবে সমর্থনীয়</string>
+    <string name="tts_status_requires_network"><xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> নেটওয়ার্ক সংযোগ প্রয়োজন</string>
+    <string name="tts_status_not_supported"><xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> সমর্থনীয় নয়</string>
+    <string name="tts_status_checking">"পরীক্ষা করা হচ্ছে..."</string>
+    <string name="tts_engine_settings_title"><xliff:g id="tts_engine_name">%s</xliff:g>এর জন্য সেটিং </string>
+    <string name="tts_engine_settings_button">ইঞ্জিন সেটিং চালু করুন</string>
+    <string name="tts_engine_preference_section_title">পছন্দসই ইঞ্জিন</string>
+    <string name="tts_general_section_title">সাধারণ</string>
+    <string name="tts_reset_speech_pitch_title">বক্তৃতার স্বর রিসেট করুন</string>
+    <string name="tts_reset_speech_pitch_summary">যে স্বরে ডিফল্টে লেখা পাঠ করা হবে তা রিসেট করুন।</string>
+    <string-array name="tts_rate_entries">
+        <item>অত্যন্ত ধীরে</item>
+        <item>ধীরে</item>
+        <item>সাধারণ</item>
+        <item>দ্রুত</item>
+        <item>আরও দ্রুত</item>
+        <item>খুব দ্রুত</item>
+        <item>দ্রুত</item>
+        <item>খুব দ্রুত</item>
+        <item>দ্রুততম</item>
+    </string-array>
+   <string name="choose_profile">প্রোফাইলবাছাইকরুন</string>
+    <string name="category_personal">ব্যক্তিগত</string>
+    <string name="category_work">কর্মস্থল</string>
+    <string name="development_settings_title">ডেভেলপার অপশন</string>
+    <string name="development_settings_enable">ডেভেলপারের অপশন সক্রিয় করুন</string>
+    <string name="development_settings_summary">অ্যাপ উন্নয়নের জন্য বিকল্প সেট করুন</string>
+    <string name="development_settings_not_available">এই ব্যবহারকারীর জন্য ডেভেলপার অপশনগুলো পাওয়া যাচ্ছে না</string>
+    <string name="vpn_settings_not_available">এই ব্যবহারকারীর জন্য ভিপিএন সেটিং নেই</string>
+    <string name="tethering_settings_not_available">এই ব্যবহারকারীর জন্য টিথারিং সেটিং নেই</string>
+    <string name="apn_settings_not_available">এই ব্যবহারকারীর জন্য অ্যাক্সেস পয়েন্ট নেইম সেটিং নেই</string>
+    <string name="enable_adb">ইউএসবি ডিবাগ করা</string>
+    <string name="enable_adb_summary">যখন ইউএসবি সংযুক্ত থাকে তখন মোড ডিবাগ করুন</string>
+    <string name="clear_adb_keys">ইউএসবি ডিবাগিং কর্তৃত্ব বাতিল করুন</string>
+    <string name="bugreport_in_power">পাওয়ার মেন্যু বাগ রিপোর্ট</string>
+    <string name="bugreport_in_power_summary">বাগ রিপোর্টের জন্য পাওয়ার মেন্যুতে অপশন যোগ করুন</string>
+    <string name="keep_screen_on">জাগ্রত থাকুন</string>
+    <string name="keep_screen_on_summary">চার্জ হওয়ার সময় স্ক্রিন কখনো ঘুমন্ত অবস্থায় থাকবে না</string>
+    <string name="bt_hci_snoop_log">ব্লুটুথ এইচসিআই স্নুপ লগ সক্রিয় করুন</string>
+    <string name="bt_hci_snoop_log_summary">একটি ফাইলে সব ব্লুটুথ এইচসিআই প্যাকেট ধারণ করুন</string>
+    <string name="oem_unlock_enable">ওইএমআনলকিং</string>
+    <string name="oem_unlock_enable_summary">বুটলোডারআনলকহওয়ারঅনুমতিদিন</string>
+    <string name="confirm_enable_oem_unlock_title">ওইএমআনলকিংয়েরঅনুমতিদেবেন?</string>
+    <string name="confirm_enable_oem_unlock_text">সতর্কীকরণ:এইসেটিংচালুথাকাঅবস্থায়এইডিভাইসেডিভাইসসুরক্ষাফিচারকাজনাওকরতেপারে।</string>
+    <string name="mock_location_app">মকলোকেশনঅ্যাপনির্বাচনকরুন</string>
+    <string name="mock_location_app_not_set">মকলোকেশনঅ্যাপসেটকরানেই</string>
+    <string name="mock_location_app_set">মক লোকেশন অ্যাপ:<xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="debug_networking_category">নেটওয়ার্কিং</string>
+    <string name="wifi_display_certification">ওয়্যারলেস ডিসপ্লে সার্টিফিকেট</string>
+    <string name="wifi_verbose_logging">ওয়াই\u2011ফাই ভার্বোস লগিং সক্রিয় করুন</string>
+    <string name="wifi_aggressive_handover">মোবাইল হ্যান্ডওভারে আগ্রাসী ওয়াই\u2011ফাই</string>
+    <string name="wifi_allow_scan_with_traffic">সবসময় ওয়াই\u2011ফাই রোম স্ক্যানের অনুমতি দিন</string>
+    <string name="mobile_data_always_on">সেলুলারডাটাসবসময়সক্রিয়</string>
+    <string name="bluetooth_disable_absolute_volume">সর্বোচ্চ ভলিউম নিষ্ক্রিয় করুন</string>
+    <string name="wifi_display_certification_summary">ওয়্যারলেস ডিসপ্লে সার্টিফিকেটের অপশনগুলো দেখান</string>
+    <string name="wifi_verbose_logging_summary">ওয়াই\u2011ফাই লগিং লেভেল বাড়ান, ওয়াই\u2011ফাই পিকারে প্রতি এসএসআইডি আরএসএসআই দেখান</string>
+    <string name="wifi_aggressive_handover_summary">সক্রিয় থাকা অবস্থায় মোবাইলে ডাটা সংযোগ সামাল দেয়ার ক্ষেত্রে ওয়াই\u2011ফাই আরো বেশি আগ্রাসী হবে, যখন  ওয়াই\u2011ফাই সিগন্যাল নিম্ন পর্যায়ে আছে</string>
+    <string name="wifi_allow_scan_with_traffic_summary">ইন্টারফেসে যে পরিমাণ ডাটা ট্রাফিক রয়েছে তার ওপর ভিত্তি করে ওয়াই\u2011ফাই রোম স্ক্যানের অনুমতি দেবেন/দেবেন না</string>
+    <string name="select_logd_size_title">লগার বাফার সাইজ</string>
+    <string name="select_logd_size_dialog_title">প্রতি লগ বাফারে লগার সাইজ নির্বাচন করুন</string>
+    <string name="select_usb_configuration_title">ইউএসবিকনফিগারেশননির্বাচনকরুন</string>
+    <string name="select_usb_configuration_dialog_title">ইউএসবিকনফিগারেশননির্বাচনকরুন</string>
+    <string name="allow_mock_location">মক লোকেশনের অনুমতি দিন</string>
+    <string name="allow_mock_location_summary">মক লোকেশনের অনুমতি দিন</string>
+    <string name="debug_view_attributes">ভিউ এট্রিবিউট ইন্সপেকশন সক্রিয় করুন</string>
+    <string name="legacy_dhcp_client_summary">নতুনঅ্যান্ড্রয়েডডিএইচসিপিক্লায়েন্টেরপরিবর্তেললিপপথেকেডিএইচসিপিক্লায়েন্টব্যবহারকরুন।</string>
+    <string name="mobile_data_always_on_summary">সবসময় মোবাইল ডাটা সক্রিয় রাখুন এমনকি যখন ওয়াই\u2011ফাই সক্রিয় থাকে তখনও (নেটওয়ার্ক দ্রুত পরিবর্তন করার জন্য)। </string>
+    <string name="adb_warning_title">ইউএসবি ডিবাগিং-এর অনুমতি দেবেন?</string>
+    <string name="adb_warning_message">ইউএসবি ডিবাগিং কেবল উন্নয়নের উদ্দেশ্যে ব্যবহৃত হয়। আপনার কম্পিউটার এবং আপনার ডিভাইসের মধ্যে ডাটা কপি করতে, আপনার ডিভাইসে নোটিফিকেশন ছাড়া অ্যাপ ইনস্টল করতে এবং লগ ডাটা পড়তে এটি ব্যবহার করুন।</string>
+    <string name="adb_keys_warning_message">আপনি পূর্বে অনুমতিদান করেছিলেন\u2019 এমন সব কম্পিউটার থেকে ইউএসবি ডিবাগিং-এ প্রবেশাধিকার প্রত্যাখান করবেন?</string>
+    <string name="dev_settings_warning_title">উন্নয়ন সেটিংয়ের জন্য অনুমতি দেবেন?</string>
+    <string name="dev_settings_warning_message">এই সেটিংগুলো কেবল উন্নয়নের উদ্দেশ্যে ব্যবহারের জন্য তৈরি করা হয়েছে। এগুলো আপনার ডিভাইস এবং এতে যে অ্যাপ্লিকেশনগুলো আছে সেগুলোর ভাঙ্গার বা অসদাচরণ করার কারণ ঘটাতে পারে।</string>
+    <string name="verify_apps_over_usb_title">ইউএসবিতে অ্যাপসের সত্যতা যাচাই করুন</string>
+    <string name="verify_apps_over_usb_summary">ক্ষতিকর আচরণের জন্য এডিবি/এডিটি এর মাধ্যমে ইনস্টল করা অ্যাপস।</string>
+    <string name="bluetooth_disable_absolute_volume_summary">রিমোট ডিভাইসের ক্ষেত্রে অগ্রহণযোগ্য উচ্চ ভলিউম বা নিয়ন্ত্রণের অভাবের মত বিষয় দেখা দিলে ব্লুটুথের অ্যাবসুলুট ভলিউম ফিচার নিষ্ক্রিয় করা হয়।</string>
+    <string name="enable_terminal_title">স্থানীয় টার্মিনাল</string>
+    <string name="enable_terminal_summary">লোকাল শেল প্রবেশাধিকারের সুযোগ দেয় এমন টর্মিনাল অ্যাপ সক্রিয় করুন।</string>
+    <string name="hdcp_checking_title">এইচডিসিপি চেকিং</string>
+    <string name="hdcp_checking_dialog_title">এইচডিসিপি চেকিং আচরণ সেট করুন</string>
+    <string name="debug_debugging_category">ডিবাগিং</string>
+    <string name="debug_app">ডিবাগ অ্যাপ নির্বাচন করুন</string>
+    <string name="debug_app_not_set">ডিবাগ অ্যাপ্লিকেশন সেট করা হয়নি</string>
+    <string name="debug_app_set">ডিভাগিং অ্যাপ্লিকেশন:  <xliff:g id="app_name">%1$s</xliff:g>  </string>
+    <string name="select_application">অ্যাপ্লিকেশন নির্বাচন করুন</string>
+    <string name="no_application">কোনটাই নয়</string>
+    <string name="wait_for_debugger">ডিভাগের জন্য অপেক্ষা করুন</string>
+    <string name="wait_for_debugger_summary">প্রয়োগের আগে ডিবাগকৃত অ্যাপ্লিকেশন সংযুক্ত করতে ডিবাগারের জন্য অপেক্ষা করে</string>
+    <string name="debug_input_category">ইনপুট দিন</string>
+    <string name="debug_drawing_category">অংকন</string>
+    <string name="debug_hw_drawing_category">হার্ডওয়্যার ত্বরায়িত রেন্ডারিং</string>
+    <string name="media_category">মিডিয়া</string>
+    <string name="debug_monitoring_category">পরিবীক্ষণ</string>
+    <string name="strict_mode">কঠোর মোড সক্রিয়</string>
+    <string name="strict_mode_summary">যখন মেইন থ্রেডে অ্যাপ দীর্ঘ কার্যক্রম চালায় তখন স্ক্রিন জ্বলজ্বল করবে</string>
+    <string name="pointer_location">পয়েন্টার লোকেশন</string>
+    <string name="pointer_location_summary">স্ক্রিন ওভারলে বর্তমান স্পর্শ ডাটা দেখাচ্ছে</string>
+    <string name="show_touches">ট্যাপ দেখান</string>
+    <string name="show_touches_summary">ট্যাপের জন্য ভিজ্যুয়াল ফিডব্যাক দেখান</string>
+    <string name="show_screen_updates">স্ক্রিন আপডেট দেখান</string>
+    <string name="show_screen_updates_summary">আপডেটের সময় স্ক্রিনের এলাকাগুলো জ্বলজ্বল করে</string>
+    <string name="show_hw_screen_updates">জিপিইউ ভিউ আপডেট দেখান</string>
+    <string name="show_hw_screen_updates_summary">জিপিইউ দিয়ে আঁকার সময় উইন্ডোর ভেতর ভিউ জ্বলজ্বল করে।</string>
+    <string name="show_hw_layers_updates">হার্ডওয়্যারের লেয়ারের আপডেট দেখাচ্ছে</string>
+    <string name="show_hw_layers_updates_summary">আপডেট চলা অবস্থায় ফ্লাশ হার্ডওয়্যার লেয়ার সবুজ হবে</string>
+    <string name="debug_hw_overdraw">জিপিইউ ওভারড্র ডিবাগ করুন</string>
+    <string name="disable_overlays">এইচডাব্লিউ ওভারলে নিষ্ক্রিয় করুন</string>
+    <string name="disable_overlays_summary">স্ক্রিন কম্পোজিট করার জন্য সবসময় জিপিইউ ব্যবহার করুন</string>
+    <string name="simulate_color_space">কালার স্পেস সিমুলেট করুন</string>
+    <string name="enable_opengl_traces_title">ওপেনজিএল ট্রেস সক্রিয় করুন</string>
+    <string name="usb_audio_disable_routing">ইউএসবি অডিও রাউটিং নিষ্ক্রিয় করুন</string>
+    <string name="usb_audio_disable_routing_summary">ইউএসবি অডিও পেরিফেরালে স্বয়ংক্রিয় রাউটিং নিষ্ক্রিয় করুন</string>
+    <string name="debug_layout">লেআউট বাউন্ড দেখান</string>
+    <string name="debug_layout_summary">ক্লিপ বাউন্ড, মার্জিন, ইত্যাদি দেখান।</string>
+    <string name="force_rtl_layout_all_locales">আরটিএল লেআউট ডায়রেকশনকে ঘুরানো</string>
+    <string name="force_rtl_layout_all_locales_summary">সব লোকালের ক্ষেত্রে স্ক্রিন লেআউট ডায়রেকশনকে আরটিএল-দিকে ঘুরানো</string>
+    <string name="show_cpu_usage">সিপিইউ ব্যবহার দেখান</string>
+    <string name="show_cpu_usage_summary">স্ক্রিন ওভারলে বর্তমান সিপিইউ ব্যবহার দেখাচ্ছে</string>
+    <string name="force_hw_ui">জোরপূর্বক জিপিইউ রেন্ডারিং</string>
+    <string name="force_hw_ui_summary">অ্যাপ ২ডি হার্ডওয়্যার তরায়িতকরণ ব্যবহার করুন</string>
+    <string name="force_msaa">ফোর্স 4x MSAA </string>
+    <string name="force_msaa_summary">ওপেনজিএল ইএস ২.০ অ্যাপসে 4x MSAA সক্রিয় করুন</string>
+    <string name="show_non_rect_clip">নন-রেকটেঙ্গুলার ক্লিপ অপারেশন ডিবাগ করুন</string>
+    <string name="track_frame_time">জিপিইউ রেন্ডারিং প্রোফাইল</string>
+    <string name="window_animation_scale_title">উন্ডো অ্যানিমেশন স্কেল</string>
+    <string name="transition_animation_scale_title">ট্রানজিশন অ্যানিমেশন স্কেল</string>
+    <string name="animator_duration_scale_title">অ্যানিমেটরের স্থায়িত্বকালের স্কেল</string>
+    <string name="overlay_display_devices_title">গৌণ ডিসপ্লের ছদ্মবেশধারণ</string>
+    <string name="debug_applications_category">অ্যাপ</string>
+    <string name="immediately_destroy_activities">কার্যক্রম\u2019 চালিয়ে যাবেন না</string>
+    <string name="immediately_destroy_activities_summary">ব্যবহারকারী ত্যাগ করা মাত্র সব কার্যক্রম ধ্বংস করুন</string>
+    <string name="app_process_limit_title">ব্যাকগ্রাউন্ড প্রক্রিয়া সীমা</string>
+    <string name="show_all_anrs">সব এএনআর দেখান</string>
+    <string name="show_all_anrs_summary">ব্যাকগ্রাউন্ড অ্যাপের জন্য অ্যাপ সাড়া দিচ্ছে না ডায়ালগ দেখান</string>
+    <string name="force_allow_on_external">ফোর্স বাহ্যিকে অ্যাপকে অনুমতি দেয়</string>
+    <string name="force_allow_on_external_summary">প্রদর্শিত ভ্যালু নির্বিশেষে, যেকোন অ্যাপকে বাহ্যিক স্টোরেজে লেখার যোগ্য বানায় </string>
+    <string name="force_resizable_activities">রিসাইজেবল করার কর্মকান্ডগুলোকে ফোর্স করুন</string>
+    <string name="force_resizable_activities_summary">প্রদর্শিত ভ্যালু নির্বিশেষে মাল্টি উইন্ডোর জন্য সব কর্মকাণ্ডকে রিসাইজেবল করুন।</string>
+    <string name="enable_freeform_support">ফ্রিফর্ম উইন্ডোজ সক্রিয় করুন</string>
+    <string name="enable_freeform_support_summary">পরীক্ষামূলক ফ্রিফর্ম উইন্ডোজের জন্য সহায়তা সক্রিয় করুন। </string>
+    <string name="local_backup_password_title">ডেস্কটপ ব্যাকআপ পাসওয়ার্ড</string>
+    <string name="local_backup_password_summary_none">ডেস্কটপ পূর্ণাঙ্গ ব্যাকআপ\u2019 বর্তমানে সুরক্ষিত নেই</string>
+    <string name="local_backup_password_summary_change">ডেস্কটপ পূর্ণাঙ্গ ব্যাকআপের জন্য পাসওয়ার্ড পরিবর্তন করতে বা মুছতে টোকা দিন।</string>
+    <string name="local_backup_password_toast_success">নতুন ব্যাকআপ পাসওয়ার্ড সেট করুন</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">নতুন পাসওয়ার্ড এবং নিশ্চিতকরণ\u2019 মিলছে না</string>
+    <string name="local_backup_password_toast_validation_failure">ব্যাকআপ পাসওয়ার্ড সেটি করতে ব্যর্থ হয়েছে</string>
+  <string-array name="color_mode_names">
+    <item>"ভাইব্রেন্ট (ডিফল্ট)"</item>
+    <item>"প্রাকৃতিক"</item>
+    <item>"সাধারণ"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item>"উন্নত রঙ"</item>
+    <item>"স্বাভাবিক ভাবে আমরা চোখে যেমনটি দেখি সেইরূপ প্রাকৃতিক রঙ"</item>
+    <item>"ডিজিট্যাল সামগ্রীর জন্য অপ্টিমাইজ করা রঙগুলি"</item>
+  </string-array>
+    <string name="inactive_apps_title">নিষ্ক্রিয়অ্যাপ</string>
+    <string name="inactive_app_inactive_summary">নিষ্ক্রিয়। টোগল করতে টোকা দিন।</string>
+    <string name="inactive_app_active_summary">সক্রিয়। টোগল করতে টোকা দিন।</string>
+    <string name="runningservices_settings_title">চলমান সেবাগুলো</string>
+    <string name="runningservices_settings_summary">বর্তমানে চলতে থাকা সেবাগুলো দেখুন ও নিয়ন্ত্রণ করুন</string>
+    <string name="enable_webview_multiprocess">মাল্টিপ্রসেস ওয়েবভিউ</string>
+    <string name="enable_webview_multiprocess_desc">ওয়েবভিউ রেন্ডারার আলাদাভাবে চালান</string>
+    <string name="select_webview_provider_title">ওয়েবভিউ বাস্তবায়ন </string>
+    <string name="select_webview_provider_dialog_title">ওয়েবভিউ বাস্তবায়ন সেট করুন</string>
+    <string name="select_webview_provider_toast_text">এই পছন্দটি এখন আর কার্যকর নেই। আবার চেষ্টা করুন।</string>
+    <string name="convert_to_file_encryption">ফাইল এনক্রিপশনে রূপান্তর করুন</string>
+    <string name="convert_to_file_encryption_enabled">রূপান্তর করুন\u2026</string>
+    <string name="convert_to_file_encryption_done">ফাইল ইতিমধ্যেই এনক্রিপ্ট করা হয়েছে</string>
+    <string name="title_convert_fbe">ফাইল ভিত্তিক এনক্রিপশনে রূপান্তর করা হচ্ছে</string>
+    <string name="convert_to_fbe_warning">ডাটা পার্টিশনকে ফাইল ভিত্তিক এনক্রিপশনে রূপান্তর করুন।\n !!সাবধান!! এ কাজ আপনার সব ডাটা মুছে ফেলবে।\n এই ফিচারটি আলফা, এবং সঠিকভাবে কাজ নাও করতে পারে।\n অব্যাহত রাখতে \'মুছুন এবং রূপান্তর করুন\u2026\' -এ চাপ দিন।</string>
+    <string name="button_convert_fbe">মুছুন এবং রূপান্তর করুন\u2026</string>
+    <string name="picture_color_mode">"ছবি রঙ মোড"</string>
+    <string name="picture_color_mode_desc">"sRGB ব্যবহার করুন"</string>
+    <string name="daltonizer_mode_disabled">নিষ্ক্রিয়</string>
+    <string name="daltonizer_mode_monochromacy">মনোক্রম্যাসি</string>
+    <string name="daltonizer_mode_deuteranomaly">ডিওটারানমালি (লাল-সবুজ)</string>
+    <string name="daltonizer_mode_protanomaly">প্রট্যানোমালি (লাল-সবুজ)</string>
+    <string name="daltonizer_mode_tritanomaly">ট্রিট্যানোমালি (নীল-হলুদ)</string>
+    <string name="accessibility_display_daltonizer_preference_title">রং সংশোধন</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">এই ফিচারটি পরীক্ষামূলক এবং তা কর্ম সম্পাদনকে প্রভাবিত করতে পারে।</string>
+    <string name="daltonizer_type_overridden"><xliff:g id="title" example="Simulatecolorspace">%1$s</xliff:g> মাধ্যমে বন্ধ করা হয়েছে</string>
+    <string name="power_remaining_duration_only">প্রায় <xliff:g id="time">%1$s</xliff:g> বাকি</string>
+    <string name="power_remaining_duration_only_short"><xliff:g id="time">%1$s</xliff:g> বাকি</string>
+    <string name="power_discharging_duration"><xliff:g id="level">%1$s</xliff:g> - approx. <xliff:g id="time">%2$s</xliff:g> বাকি</string>
+    <string name="power_discharging_duration_short"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> বাকি</string>
+    <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> পূর্ণ হওয়া পর্যন্ত</string>
+    <string name="power_charging_duration_short"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging_duration_ac"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> এসি-তে পূর্ণ হওয়া পর্যন্ত </string>
+    <string name="power_charging_duration_ac_short"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging_duration_usb"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> ইউএসবিতে পূর্ণ হওয়া পর্যন্ত</string>
+    <string name="power_charging_duration_usb_short"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> ওয়্যারলেস থেকে পূর্ণ হওয়া পর্যন্ত</string>
+    <string name="power_charging_duration_wireless_short"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="battery_info_status_unknown">অজানা</string>
+    <string name="battery_info_status_charging">আপনারসিমকার্ডস্থায়ীভাবেনিষ্ক্রিয়করাহয়েছে।\nঅন্যসিমকার্ডেরজন্যআপনারওয়্যারলেসসার্ভিসপ্রোভাইডারেরসাথেযোগাযোগকরুন।</string>
+    <string name="battery_info_status_charging_ac">এসিতে চার্জ হচ্ছে</string>
+    <string name="battery_info_status_charging_ac_short">আপনারসিমকার্ডস্থায়ীভাবেনিষ্ক্রিয়করাহয়েছে।\nঅন্যসিমকার্ডেরজন্যআপনারওয়্যারলেসসার্ভিসপ্রোভাইডারেরসাথেযোগাযোগকরুন।</string>
+    <string name="battery_info_status_charging_usb">ইউএসবিতে চার্জ হচ্ছে</string>
+    <string name="battery_info_status_charging_usb_short">আপনারসিমকার্ডস্থায়ীভাবেনিষ্ক্রিয়করাহয়েছে।\nঅন্যসিমকার্ডেরজন্যআপনারওয়্যারলেসসার্ভিসপ্রোভাইডারেরসাথেযোগাযোগকরুন।</string>
+    <string name="battery_info_status_charging_wireless">(তারবিহীন)</string>
+    <string name="battery_info_status_charging_wireless_short">আপনারসিমকার্ডস্থায়ীভাবেনিষ্ক্রিয়করাহয়েছে।\nঅন্যসিমকার্ডেরজন্যআপনারওয়্যারলেসসার্ভিসপ্রোভাইডারেরসাথেযোগাযোগকরুন।</string>
+    <string name="battery_info_status_discharging">চার্জ হচ্ছে না</string>
+    <string name="battery_info_status_not_charging">চার্জ হচ্ছে না</string>
+    <string name="battery_info_status_full">পূর্ণ</string>
+    <string name="disabled_by_admin_summary_text">অ্যাডমিন কর্তৃক নিয়ন্ত্রিত</string>
+    <string name="enabled_by_admin">অ্যাডমিনিস্ট্রেটরের মাধ্যমে সক্রিয়</string>
+    <string name="disabled_by_admin">প্রশাসক কর্তৃক নিষ্ক্রিয় করা</string>
+    <string name="home">সেটিং হোম</string>
+  <string-array name="battery_labels">
+    <item>"০%"</item>
+    <item>"৫০%"</item>
+    <item>"১০০%"</item>
+  </string-array>
+    <string name="charge_length_format"><xliff:g name="time" example="3hours">%1$s</xliff:g> আগে</string>
+    <string name="remaining_length_format"><xliff:g name="time" example="3hours">%1$s</xliff:g> বাকি</string>
+    <string name="screen_zoom_summary_small">ছোট</string>
+    <string name="screen_zoom_summary_default">ডিফল্ট</string>
+    <string name="screen_zoom_summary_large">বড়</string>
+    <string name="screen_zoom_summary_very_large">আরো বড়</string>
+    <string name="screen_zoom_summary_extremely_large">সবচেয়ে বড়</string>
+    <string name="screen_zoom_summary_custom">কাস্টম (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
+    <string name="help_feedback_label">সাহায্য এবং ফিডব্যাক</string>
+</resources>

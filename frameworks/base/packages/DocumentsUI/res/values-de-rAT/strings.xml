@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_label">Dokumente</string>
+
+    
+    <string name="title_open">Öffnen von</string>
+    
+    <string name="title_save">Speichern unter</string>
+
+    
+    <string name="menu_create_dir">Ordner erstellen</string>
+    
+    <string name="menu_grid">Rasteransicht</string>
+    
+    <string name="menu_list">Listenansicht</string>
+    
+    <string name="menu_sort">Sortieren nach</string>
+    
+    <string name="menu_search">Suchen</string>
+    
+    <string name="menu_settings">Einstellungen</string>
+
+    
+    <string name="menu_open">Offen</string>
+    
+    <string name="menu_save">Speichern</string>
+    
+    <string name="menu_share">Teilen</string>
+    
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_select_all">Alles auswählen</string>
+    <string name="menu_copy">Kopieren nach\u2026</string>
+    
+    <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> ausgewählt</string>
+    <string name="button_select"/>
+    <string name="button_copy">Kopieren</string>
+    <string name="sort_name">Nach Name</string>
+    
+    <string name="sort_date">Nach Änderungsdatum</string>
+    
+    <string name="sort_size">Nach Größe</string>
+
+    
+    <string name="drawer_open">Quellen anzeigen</string>
+    
+    <string name="drawer_close">Quellen verbergen</string>
+
+    
+    <string name="save_error">Dokument kann nicht gespeichert werden.</string>
+    
+    <string name="create_error">Ordner kann nicht erstellt werden</string>
+    
+    <string name="query_error">Dokument kann nicht abgefragt werden.</string>
+
+    
+    <string name="root_recent">Kürzlich</string>
+    
+    <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> frei</string>
+
+    
+    <string name="root_type_service">Speicherdienst</string>
+    
+    <string name="root_type_shortcut">Verknüpfung</string>
+    
+    <string name="root_type_device">Geräte</string>
+    
+    <string name="root_type_apps">Weitere Apps</string>
+
+    
+    <string name="pref_advanced_devices">Erweiterte Geräte anzeigen</string>
+    
+    <string name="pref_file_size">Dateigröße anzeigen</string>
+    <string name="pref_device_size">Gerätegröße anzeigen</string>
+
+    
+    <string name="empty">Keine Elemente</string>
+
+    
+    <string name="toast_no_application">Kann Datei nicht öffnen.</string>
+    
+    <string name="toast_failed_delete">Kann einige Dokumente nicht löschen.</string>
+
+    
+    <string name="share_via">Teilen über</string>
+    <string name="copy_notification_title">Dateien werden kopiert</string>
+    <string name="copy_remaining"/>
+    <plurals name="copy_begin">
+        <item quantity="one">Kopiert wird <xliff:g id="count" example="1">%1$d</xliff:g> Datei.</item>
+        <item quantity="other">Kopiert werden <xliff:g id="count" example="3">%1$d</xliff:g> Dateien.</item>
+    </plurals>
+    <string name="copy_preparing">Kopieren wird vorbereitet\u2026</string>
+    <plurals name="copy_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei konnte nicht kopiert werden</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Dateien konnten nicht kopiert werden</item>
+    </plurals>
+    <string name="notification_touch_for_details"/>
+    <string name="retry">Wiederholen</string>
+    <string name="copy_failure_alert_content">Diese Dateien wurden nicht kopiert: <xliff:g id="list">%1$s</xliff:g></string>
+    <string name="menu_select">Wählen Sie \"<xliff:g id="directory" example="MyDirectory">^1</xliff:g>\"</string>
+    <string name="menu_advanced_show" product="nosdcard">Internen Speicher anzeigen</string>
+    <string name="menu_advanced_show" product="default">SD-Karte anzeigen</string>
+    <string name="menu_advanced_hide" product="nosdcard">Internen Speicher verbergen</string>
+    <string name="menu_advanced_hide" product="default">SD-Karte verbergen</string>
+    <string name="menu_file_size_show">Dateigröße anzeigen</string>
+    <string name="menu_file_size_hide">Dateigröße verbergen</string>
+    <string name="allow">Erlauben</string>
+    <string name="button_dismiss">Ablehnen</string>
+    <string name="button_move">Verschieben</string>
+    <string name="button_retry">Erneutversuchen</string>
+    <string name="clipboard_files_cannot_paste">Die ausgewählten Dateien können nicht an dieser Stelle eingefügt werden</string>
+    <plurals name="clipboard_files_clipped">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei wurde in Ablage kopiert</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> wurden in Ablage kopiert.</item>
+    </plurals>
+    <string name="close">Schließen</string>
+    <string name="copy_converted_warning_content">Diese Dateien wurden in ein anderes Format konvertiert: <xliff:g id="list" example="Document.pdf,Photo.jpg,Song.ogg">%1$s</xliff:g></string>
+    <plurals name="delete_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei konnte nicht gelöscht werden</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Dateien konnten nicht gelöscht werden</item>
+    </plurals>
+    <string name="delete_failure_alert_content">Diese Dateien wurden nicht gelöscht: <xliff:g id="list">%1$s</xliff:g></string>
+    <string name="delete_filename_confirmation_message">\"<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>\" löschen?</string>
+    <plurals name="delete_files_confirmation_message">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei löschen?</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> Dateien löschen?</item>
+    </plurals>
+    <string name="delete_foldername_confirmation_message">Ordner \"<xliff:g id="name" example="Photos">%1$s</xliff:g>\" und seinen Inhalt löschen?</string>
+    <plurals name="delete_folders_confirmation_message">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Ordner und seinen Inhalt löschen?</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> Ordner und ihren Inhalt löschen?</item>
+    </plurals>
+    <plurals name="delete_items_confirmation_message">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Element löschen?</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> Elemente löschen?</item>
+    </plurals>
+    <string name="delete_notification_title">Dateien löschen</string>
+    <string name="delete_preparing">Löschen wird vorbereitet\u2026</string>
+    <plurals name="deleting">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei wird gelöscht.</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> Dateien werden gelöscht.</item>
+    </plurals>
+    <string name="deny">ABLEHNEN</string>
+    <string name="downloads_label">Downloads</string>
+    <plurals name="elements_dragged">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Element</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> Elemente</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="one"><xliff:g id="countexample=1">%1$d</xliff:g>ausgewählt</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> ausgewählt</item>
+    </plurals>
+    <string name="menu_copy_to_clipboard">"Kopieren"</string>
+    <string name="menu_move">Gehe zu\u2026</string>
+    <string name="menu_new_window">Neues Fenster</string>
+    <string name="menu_paste_from_clipboard">"Einfügen"</string>
+    <string name="menu_rename">Umbenennen</string>
+    <plurals name="move_begin">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei wird verschoben.</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> Dateien werden verschoben.</item>
+    </plurals>
+    <plurals name="move_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> Datei konnte nicht verschoben werden</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> Dateien konnten nicht verschoben werden</item>
+    </plurals>
+    <string name="move_failure_alert_content">Diese Dateien wurden nicht verschoben: <xliff:g id="list">%1$s</xliff:g></string>
+    <string name="move_notification_title">Dateien verschieben</string>
+    <string name="move_preparing">Verschieben wird vorbereitet\u2026</string>
+    <string name="never_ask_again">Nicht erneut fragen</string>
+    <string name="no_results">Keine Übereinstimmungen in %1$s</string>
+    <string name="notification_copy_files_converted_title">Einigen Dateien wurden konvertiert</string>
+    <string name="open_external_dialog_request"><xliff:g id="appName" example="SystemSettings"><b>^1</b></xliff:g> Zugriff auf Verzeichnis <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> auf <xliff:g id="storage" example="SDCard"><i>^3</i></xliff:g> erteilen?</string>
+    <string name="open_external_dialog_request_primary_volume"><xliff:g id="appName" example="SystemSettings"><b>^1</b></xliff:g> Zugriff auf Verzeichnis <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> erteilen?</string>
+    <string name="open_external_dialog_root_request"><xliff:g id="appName" example="SystemSettings"><b>^1</b></xliff:g> Zugriff auf Ihre Daten einschließlich Fotos und Videos auf <xliff:g id="storage" example="SDCard"><i>^2</i></xliff:g> erteilen?</string>
+    <string name="rename_error">Umbenennen des Dokuments fehlgeschlagen</string>
+    <string name="too_many_selected">Es tut uns leid, aber Sie können nur bis zu 1000 Elemente auf einmal auswählen</string>
+    <string name="too_many_in_select_all">Sie können nur 1000 Elemente auswählen</string>
+    <string name="undo">Rückgängig machen</string>
+		<string name="drm_file_cannot_move">Einige geschützte Dateien können nicht verschoben werden.</string>
+		<string name="drm_file_cannot_copy">Einige geschützte Dateien können nicht kopiert werden.</string>
+</resources>

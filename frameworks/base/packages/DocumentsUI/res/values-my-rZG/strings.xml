@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">စာရြက္စာတမ္းမ်ား</string>
+    <string name="title_open">မွ ဖြင့္ပါ</string>
+    <string name="title_save">သို႔ သိမ္းပါ</string>
+    <string name="menu_create_dir">ဖိုဒါဖန္တီးပါ</string>
+    <string name="menu_grid">ေလးေထာင့္ကြက္မ်ားျဖင့္ ၾကည့္႐ႈခ်က္</string>
+    <string name="menu_list">စာရင္းၾကည့္ရႈခ်က္</string>
+    <string name="menu_sort">ျဖင့္စီပါ</string>
+    <string name="menu_search">ရွာေဖြပါ</string>
+    <string name="menu_settings">အျပင္အဆင္မ်ား</string>
+    <string name="menu_open">ဖြင့္ပါ</string>
+    <string name="menu_save">သိမ္းဆည္းပါ</string>
+    <string name="menu_share">ေဝမွ်ပါ</string>
+    <string name="menu_delete">ဖ်က္ပါ</string>
+    <string name="menu_select_all">အားလုံးေရြးခ်ယ္ပါ</string>
+    <string name="menu_copy">\u2026 သို႔ ေရြးခ်ယ္ပါ</string>
+    <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> ခု ေရြးၿပီး</string>
+    <string name="button_select"/>
+    <string name="button_copy">ေရြးခ်ယ္ပါ</string>
+    <string name="sort_name">အမည္အလိုက္</string>
+    <string name="sort_date">ေျပာင္းခဲ့ေသာ ရက္စြဲအလိုက္</string>
+    <string name="sort_size">အရြယ္အစားအလိုက္</string>
+    <string name="drawer_open">ရင္းျမစ္ ျပပါ</string>
+    <string name="drawer_close">ရင္းျမစ္ ဝွက္ပါ</string>
+    <string name="save_error">စာရြက္စာတမ္းသိမ္းရန္ မေအာင္ျမင္</string>
+    <string name="create_error">ဖိုဒါဖန္တီးရန္ မေအာင္ျမင္ပါ</string>
+    <string name="query_error">စာရြက္စာတမ္းမ်ား ရွာရန္ မေအာင္ျမင္</string>
+    <string name="root_recent">မၾကာေသးမီက</string>
+    <string name="root_available_bytes">ေနရာလြတ္ <xliff:g id="size" example="3GB">%1$s</xliff:g> ခုရွိသည္</string>
+    <string name="root_type_service">သိမ္းဆည္းသည့္ ဝန္ေဆာင္မႈ</string>
+    <string name="root_type_shortcut">အတိုနည္းမ်ား</string>
+    <string name="root_type_device">ကိရိယာမ်ား</string>
+    <string name="root_type_apps">ေနာက္ထပ္ပ႐ိုဂရမ္မ်ား</string>
+    <string name="pref_advanced_devices">အဆင့္ျမင့္ ကိရိယာမ်ားကိုျပပါ</string>
+    <string name="pref_file_size">ဖိုင္အရြယ္အစားကိုျပပါ</string>
+    <string name="pref_device_size">ကိရိယာ အရြယ္အစားကိုျပပါ</string>
+    <string name="empty">ပစၥည္းမ်ားမရွိ</string>
+    <string name="toast_no_application">ဖိုင္မဖြင့္ႏိုင္ပါ</string>
+    <string name="toast_failed_delete">အခ်ဳိ႕ စာရြက္စာတမ္းမ်ားကို မဖ်က္ႏိုင္ပါ</string>
+    <string name="share_via">မွတစ္ဆင့္ေဝမွ်ပါ</string>
+    <string name="copy_notification_title">ဖိုင္မ်ား ကူးယူေနဆဲ</string>
+    <string name="copy_remaining"/>
+    <plurals name="copy_begin">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ ကူးယူေနဆဲ</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g>ဖိုင္ ကူးယူေနဆဲ</item>
+    </plurals>
+    <string name="copy_preparing">\u2026 ကူးယူရန္အတြက္ ျပင္ဆင္ေနဆဲ</string>
+    <plurals name="copy_error_notification_title">
+        <item quantity="one"><xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ မကူးယူႏိုင္ပါ</item>
+        <item quantity="other"><xliff:g id="count" example="2">%1$d</xliff:g> ဖိုင္ မကူးယူႏိုင္ပါ</item>
+    </plurals>
+    <string name="notification_touch_for_details"/>
+    <string name="retry">ျပန္လည္ၾကိဳးစားပါ</string>
+    <string name="copy_failure_alert_content">ဤဖိုင္မ်ားကို မကူးယူႏိုင္ပါ : <xliff:g id="list">%1$s</xliff:g></string>
+
+    <string name="menu_select">\"<xliff:g id="directory" example="MyDirectory">^1</xliff:g>\" ကို ေရြးပါ</string>
+    <string name="menu_advanced_show" product="nosdcard">အတြင္း သိမ္းဆည္းေနရာကို ျပပါ</string>
+    <string name="menu_advanced_show" product="default">SD ကဒ္ကို ျပပါ</string>
+    <string name="menu_advanced_hide" product="nosdcard">အတြင္း သိမ္းဆည္းေနရာ ဝွက္ပါ</string>
+    <string name="menu_advanced_hide" product="default">SD ကဒ္ကို ဝွက္ပါ</string>
+    <string name="menu_file_size_show">ဖိုင္အရြယ္အစားကို ျပပါ</string>
+    <string name="menu_file_size_hide">ဖိုင္အရြယ္အစားကို ဝွက္ပါ</string>
+    <string name="allow">ခြင့္ျပဳပါ</string>
+    <string name="button_dismiss">"ပယ္ခ်ပါ"</string>
+    <string name="button_move">ေရႊ႕ပါ</string>
+    <string name="button_retry">ျပန္ႀကိဳးစားၾကည့္ပါ</string>
+    <string name="clipboard_files_cannot_paste">ေရြးထားေသာဖိုင္မ်ားကို ဤတည္ေနရာသို႔ မကူးႏိုင္ပါ။</string>
+    <plurals name="clipboard_files_clipped">
+        <item quantity="one">ဖိုင္ <xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ကို ကလစ္ဘုတ္သို႔ ကူးယူထားသည္။</item>
+        <item quantity="other">ဖိုင္ <xliff:g id="count" example="3">%1$d</xliff:g> ဖိုင္ကို ကလစ္ဘုတ္သို႔ ကူးယူထားသည္။</item>
+    </plurals>
+    <string name="close">ပိတ္ပါ</string>
+    <string name="copy_converted_warning_content">ဤဖိုင္မ်ားကို အျခားပံုစံသို႔ ေျပာင္းထားသည္ - <xliff:g id="list" example="Document.pdf,Photo.jpg,Song.ogg">%1$s</xliff:g></string>
+    <plurals name="delete_error_notification_title">
+        <item quantity="one">ဖိုင္ <xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ မဖ်က္ႏိုင္ပါ</item>
+        <item quantity="other">ဖိုင္ <xliff:g id="count" example="2">%1$d</xliff:g> ဖိုင္ မဖ်က္ႏိုင္ပါ</item>
+    </plurals>
+    <string name="delete_failure_alert_content">ဤဖိုင္မ်ားကို မဖ်က္ထားပါ - <xliff:g id="list">%1$s</xliff:g></string>
+    <string name="delete_filename_confirmation_message">\"<xliff:g id="name" example="cat.jpg">%1$s</xliff:g>\" ကို ဖ်က္မလား။</string>
+    <plurals name="delete_files_confirmation_message">
+        <item quantity="one">ဖိုင္ <xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ကို ဖ်က္မလား။</item>
+        <item quantity="other">ဖိုင္ <xliff:g id="count" example="3">%1$d</xliff:g> ဖိုင္ကို ဖ်က္မလား။</item>
+    </plurals>
+    <string name="delete_foldername_confirmation_message">ဖိုင္တြဲ  \"<xliff:g id="name" example="Photos">%1$s</xliff:g>\" ႏွင့္ ၎၏ပါဝင္မႈမ်ားကို ဖ်က္မလား။</string>
+    <plurals name="delete_folders_confirmation_message">
+        <item quantity="one">ဖိုင္တြဲ <xliff:g id="count" example="1">%1$d</xliff:g> ခုႏွင့္ ၎၏ပါဝင္မႈမ်ားကို ဖ်က္မလား။</item>
+        <item quantity="other">ဖိုင္တြဲ <xliff:g id="count" example="3">%1$d</xliff:g> ခုႏွင့္ ၎၏ပါဝင္မႈမ်ားကို ဖ်က္မလား။</item>
+    </plurals>
+    <plurals name="delete_items_confirmation_message">
+        <item quantity="one">ပစၥည္း <xliff:g id="count" example="1">%1$d</xliff:g> ခုကို ဖ်က္မလား။</item>
+        <item quantity="other">ပစၥည္း <xliff:g id="count" example="3">%1$d</xliff:g> ခုကို ဖ်က္မလား။</item>
+    </plurals>
+    <string name="delete_notification_title">ဖိုင္မ်ားကို ဖ်က္ေနသည္</string>
+    <string name="delete_preparing">\u2026 ကို ဖ်က္ရန္အတြက္ ျပင္ဆင္ေနသည္</string>
+    <plurals name="deleting">
+        <item quantity="one">ဖိုင္ <xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ ဖ်က္ေနသည္။</item>
+        <item quantity="other">ဖိုင္ <xliff:g id="count" example="3">%1$d</xliff:g> ဖိုင္ ဖ်က္ေနသည္။</item>
+    </plurals>
+    <string name="deny">ျငင္းပယ္ပါ</string>
+    <string name="downloads_label">ေဒါင္းလုဒ္မ်ား</string>
+    <plurals name="elements_dragged">
+        <item quantity="one">ပစၥည္း <xliff:g id="count" example="1">%1$d</xliff:g> ခု</item>
+        <item quantity="other">ပစၥည္း <xliff:g id="count" example="3">%1$d</xliff:g> ခု</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="one"><xliff:g id="အေရအတြက္example=1">%1$d</xliff:g>ေရြးခ်ယ္ထားသည္</item>
+        <item quantity="other"><xliff:g id="count" example="3">%1$d</xliff:g> ခု ေရြးၿပီး</item>
+    </plurals>
+    <string name="menu_copy_to_clipboard">ကူးပါ</string>
+    <string name="menu_move">\u2026 သို႔ ေရႊ႕ပါ</string>
+    <string name="menu_new_window">ဝင္းဒိုးအသစ္</string>
+    <string name="menu_paste_from_clipboard">ျပန္ေဖာ္သည္</string>
+    <string name="menu_rename">အမည္ျပန္ေပးပါ</string>
+    <plurals name="move_begin">
+        <item quantity="one">ဖိုင္ <xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ ေရႊ႕ေနသည္။</item>
+        <item quantity="other">ဖိုင္ <xliff:g id="count" example="3">%1$d</xliff:g> ဖိုင္ ေရႊ႕ေနသည္။</item>
+    </plurals>
+    <plurals name="move_error_notification_title">
+        <item quantity="one">ဖိုင္ <xliff:g id="count" example="1">%1$d</xliff:g> ဖိုင္ မေရႊ႕ႏိုင္ပါ</item>
+        <item quantity="other">ဖိုင္ <xliff:g id="count" example="2">%1$d</xliff:g> ဖိုင္ မေရႊ႕ႏိုင္ပါ</item>
+    </plurals>
+    <string name="move_failure_alert_content">ဤဖိုင္မ်ားကို မေရႊ႕ထားပါ - <xliff:g id="list">%1$s</xliff:g></string>
+    <string name="move_notification_title">ဖိုင္မ်ားကို ေရႊ႕ေနသည္</string>
+    <string name="move_preparing">\u2026 ကို ေရႊ႕ရန္အတြက္ ျပင္ဆင္ေနသည္</string>
+    <string name="never_ask_again">ေနာက္ထပ္မေမးပါႏွင့္</string>
+    <string name="no_results">%1$s တြင္ ကိုက္ညီမႈမ်ားမရွိပါ</string>
+    <string name="notification_copy_files_converted_title">အခ်ဳိ႕ဖိုင္မ်ားကို ေျပာင္းထားသည္</string>
+    <string name="open_external_dialog_request"><xliff:g id="appName" example="SystemSettings"><b>^1</b></xliff:g> အား  <xliff:g id="storage" example="SDCard"><i>^3</i></xliff:g> ရွိ <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> ဖိုင္တြဲကို အသံုးျပဳခြင့္ေပးမလား။</string>
+    <string name="open_external_dialog_request_primary_volume"><xliff:g id="appName" example="SystemSettings"><b>^1</b></xliff:g> အား <xliff:g id="directory" example="Pictures"><i>^2</i></xliff:g> ဖိုင္တြဲကို အသံုးျပဳခြင့္ေပးမလား။</string>
+    <string name="open_external_dialog_root_request"><xliff:g id="appName" example="SystemSettings"><b>^1</b></xliff:g> အား <xliff:g id="storage" example="SDCard"><i>^2</i></xliff:g> ရွိ ဓာတ္ပံုမ်ားႏွင့္ ဗီဒီယိုမ်ားအပါအဝင္ သင့္ေဒတာမ်ားကို အသံုးျပဳခြင့္ေပးမလား။</string>
+    <string name="rename_error">မွတ္တမ္းမွတ္ရာကို အမည္ေျပာင္းရန္ မေအာင္ျမင္ပါ</string>
+    <string name="too_many_selected">ဝမ္းနည္းပါတယ္၊ တစ္ႀကိမ္တြင္ ပစၥည္း ၁၀၀၀ ခုထိသာ ေရြးႏိုင္သည္</string>
+    <string name="too_many_in_select_all">ပစၥည္း ၁၀၀၀ ခုသာ ေရြးႏိုင္သည္</string>
+    <string name="undo">မလုပ္ပါ</string>
+		<string name="drm_file_cannot_move">ကာကြယ္ထားေသာ ဖိုင္အခ်ိဳ႕ကို မေရႊ႕ႏိုင္ပါ။</string>
+		<string name="drm_file_cannot_copy">ကာကြယ္ထားေသာ ဖိုင္အခ်ိဳ႕ကို မိတၱဴမကူးႏိုင္ပါ။</string>
+</resources>

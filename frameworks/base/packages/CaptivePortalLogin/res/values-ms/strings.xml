@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"CaptivePortalLogin"</string>
+    <string name="action_use_network">"Gunakan rangkaian ini"</string>
+    <string name="action_do_not_use_network">"Jangan gunakan rangkaian ini"</string>
+    <string name="action_bar_label">Logmasukkerangkaian</string>
+    <string name="ssl_error_warning"/>
+    <string name="ssl_error_example">Contohnya,halamanlogmasukmungkintidakdimilikiolehorganisasiyangditunjukkan.</string>
+    <string name="ssl_error_continue">Teruskanjugamelaluipelayar</string>
+</resources>

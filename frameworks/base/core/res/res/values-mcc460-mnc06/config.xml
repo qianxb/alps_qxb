@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds.  Do not translate. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Enable Volte capability -->
+    <bool translatable="false" name="config_device_volte_available">true</bool>
+    <!-- Enable Vilte capability -->
+    <bool translatable="false" name="config_device_vt_available">true</bool>
+</resources>

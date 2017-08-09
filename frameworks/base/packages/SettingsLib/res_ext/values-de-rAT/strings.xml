@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">Netzwerksuche nicht möglich</string>
+    <string name="wifi_security_none">Keine</string>
+    <string name="wifi_remembered">Gespeichert</string>
+    <string name="wifi_disabled_generic">Deaktiviert</string>
+    <string name="wifi_disabled_network_failure">IP-Konfigurationsfehler</string>
+    <string name="wifi_disabled_wifi_failure">Wi-Fi-Verbindungsfehler</string>
+    <string name="wifi_disabled_password_failure">Authentisierungsproblem</string>
+    <string name="wifi_not_in_range">Nicht in Reichweite</string>
+    <string name="wifi_no_internet">Kein Internetzugriff erkannt, keine automatische Neuverbindung.</string>
+    <string name="saved_network">Gespeichert von <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="connected_via_wfa">Über Wi\u2011Fi-Assistent verbunden</string>
+    <string name="connected_via_passpoint">Über %1$s verbunden</string>
+    <string name="available_via_passpoint">Über %1$s verfügbar</string>
+    <string name="wifi_connected_no_internet">Verbunden, kein Internet</string>
+    <string name="bluetooth_disconnected">Getrennt</string>
+    <string name="bluetooth_disconnecting">Trennen \u2026</string>
+    <string name="bluetooth_connecting">Verbinden \u2026</string>
+    <string name="bluetooth_connected">Verbindungaufgebaut</string>
+    <string name="bluetooth_pairing">Koppeln \u2026</string>
+    <string name="bluetooth_connected_no_headset">Verbunden (kein Telefon)</string>
+    <string name="bluetooth_connected_no_a2dp">Verbunden (kein Medium)</string>
+    <string name="bluetooth_connected_no_map">Verbunden (kein Mitteilungszugriff)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Verbunden (kein Telefon oder Medium)</string>
+    <string name="bluetooth_profile_a2dp">Medienaudio</string>
+    <string name="bluetooth_profile_headset">Telefonaudio</string>
+    <string name="bluetooth_profile_opp">Dateiübertragung</string>
+    <string name="bluetooth_profile_hid">Eingabegerät</string>
+    <string name="bluetooth_profile_pan">Internetzugriff</string>
+    <string name="bluetooth_profile_pbap">Kontakte werden geteilt</string>
+    <string name="bluetooth_profile_pbap_summary">Verwenden für Kontakte teilen</string>
+    <string name="bluetooth_profile_pan_nap">Internetverbindungsfreigabe</string>
+    <string name="bluetooth_profile_map">Mitteilungszugriff</string>
+    <string name="bluetooth_profile_sap">SIM-Zugriff</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Mit Medienaudio verbunden</string>
+    <string name="bluetooth_headset_profile_summary_connected">Mit Telefonaudio verbunden</string>
+    <string name="bluetooth_opp_profile_summary_connected">Mit Dateitransferserver verbunden</string>
+    <string name="bluetooth_map_profile_summary_connected">Mit MAP verbunden</string>
+    <string name="bluetooth_sap_profile_summary_connected">Mit SAP verbunden</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Nicht mit Dateitransferserver verbunden</string>
+    <string name="bluetooth_hid_profile_summary_connected">Mit Eingabegerät verbunden</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Mit Gerät zum Internetzugriff verbunden</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Lokale Internetverbindung mit Gerät teilen</string>
+    <string name="bluetooth_pan_profile_summary_use_for">Zum Internetzugriff verwenden</string>
+    <string name="bluetooth_map_profile_summary_use_for">Für MAP verwenden</string>
+    <string name="bluetooth_sap_profile_summary_use_for">Zum SIM-Zugriff verwenden</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">Für Medienaudio verwenden</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Für Telefonaudio verwenden</string>
+    <string name="bluetooth_opp_profile_summary_use_for">Zum Dateitransfer verwenden</string>
+    <string name="bluetooth_hid_profile_summary_use_for">Zur Eingabe verwenden</string>
+    <string name="bluetooth_pairing_accept">Koppeln</string>
+    <string name="bluetooth_pairing_accept_all_caps">Koppeln</string>
+    <string name="bluetooth_pairing_decline">ABBRECHEN</string>
+    <string name="bluetooth_pairing_will_share_phonebook">Zugriffsrechte auf Ihre Kontakte und das Anrufprotokoll koppeln, wenn verbunden.</string>
+    <string name="bluetooth_pairing_error_message">Koppeln mit <xliff:g id="device_name">%1$s</xliff:g> nicht möglich.</string>
+    <string name="bluetooth_pairing_pin_error_message">Koppeln mit <xliff:g id="device_name">%1$s</xliff:g> wegen falscher PIN oder falschem Schlüssel nicht möglich.</string>
+    <string name="bluetooth_pairing_device_down_error_message">Kommunikation mit <xliff:g id="device_name">%1$s</xliff:g> nicht möglich.</string>
+    <string name="bluetooth_pairing_rejected_error_message">Kopplung von <xliff:g id="device_name">%1$s</xliff:g> abgelehnt.</string>
+    <string name="accessibility_wifi_off">Wi-Fi aus</string>
+    <string name="accessibility_no_wifi">Wi-Fi getrennt</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi 1 Balken</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi 2 Balken</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi 3 Balken</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi-Empfang voll</string>
+    <string name="process_kernel_label">Android-OS</string>
+    <string name="data_usage_uninstalled_apps">Apps entfernt</string>
+    <string name="data_usage_uninstalled_apps_users">Apps und Benutzer entfernen</string>
+    <string name="tether_settings_title_usb">USB-Anbindung</string>
+    <string name="tether_settings_title_wifi">Mobiler Hotspot</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth-Anbindung</string>
+    <string name="tether_settings_title_usb_bluetooth">Anbindung</string>
+    <string name="tether_settings_title_all">Anbindung &amp; Mobiler Hotspot</string>
+    <string name="managed_user_title">Alle Arbeitsapps</string>
+    <string name="user_guest">Gast</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="running_process_item_user_label">Benutzer: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">EinigeStandardseingerichtet</string>
+    <string name="launch_defaults_none">KeineStandardseingerichtet</string>
+    <string name="tts_settings">Text-to-Speech-Einstellungen</string>
+    <string name="tts_settings_title">Text-to-Speech-Ausgabe</string>
+    <string name="tts_default_rate_title">Sprechgeschwindigkeit</string>
+    <string name="tts_default_rate_summary">Geschwindigkeit, mit der Text gesprochen wird.</string>
+    <string name="tts_default_pitch_title">Höhe</string>
+    <string name="tts_default_pitch_summary">Beeinflusst den Ton der Sprachausgabe</string>
+    <string name="tts_default_lang_title">Sprache</string>
+    <string name="tts_lang_use_system">Systemsprache verwenden</string>
+    <string name="tts_lang_not_selected">Sprache nicht ausgewählt</string>
+    <string name="tts_default_lang_summary">Richtet eine Stimme für den gesprochenen Text in einer bestimmten Sprache ein.</string>
+    <string name="tts_play_example_title">Beispiel anhören</string>
+    <string name="tts_play_example_summary">Kurze Demonstration der Sprachsynthese abspielen</string>
+    <string name="tts_install_data_title">Stimmdaten installieren</string>
+    <string name="tts_install_data_summary">Installation der Stimmdaten für die Sprachsynthese</string>
+    <string name="tts_engine_security_warning">Diese Sprachsynthese-Engine hat die Möglichkeit, jeden Text, den sie tippen, einschließlich persönlicher Daten, wie Kennwörter und Kreditkartennummern, aufzuzeichnen. Hierzu dient die Engine <xliff:g id="tts_plugin_engine_name">%s</xliff:g>. Die Sprachsynthese-Engine aktivieren?</string>
+    <string name="tts_engine_network_required">Diese Sprache benötigte eine funktionierende Netzwerkverbindung für eine Text-to-Speech-Ausgabe.</string>
+    <string name="tts_default_sample_string">Dies ist ein Beispiel der Sprachsynthese.</string>
+    <string name="tts_status_title">Status Vorgabesprache</string>
+    <string name="tts_status_ok"><xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> wird unterstützt</string>
+    <string name="tts_status_requires_network"><xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> erfordert eine Netzwerkverbindung</string>
+    <string name="tts_status_not_supported"><xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> wird nicht unterstützt</string>
+    <string name="tts_status_checking">"Wird überprüft…"</string>
+    <string name="tts_engine_settings_title">Einstellungen für <xliff:g id="tts_engine_name">%s</xliff:g></string>
+    <string name="tts_engine_settings_button">Engine-Einstellungen starten</string>
+    <string name="tts_engine_preference_section_title">Bevorzugte Engine</string>
+    <string name="tts_general_section_title">Allgemein</string>
+    <string name="tts_reset_speech_pitch_title">Stimmentonhöhe rücksetzen</string>
+    <string name="tts_reset_speech_pitch_summary">Setzt die Tonhöhe der Sprachausgabe auf die Standardvorgabe zurück.</string>
+    <string-array name="tts_rate_entries">
+        <item>Sehr langsam</item>
+        <item>Langsam</item>
+        <item>Normal</item>
+        <item>Schnell</item>
+        <item>Schneller</item>
+        <item>Sehr schnell</item>
+        <item>Flott</item>
+        <item>Sehr flott</item>
+        <item>Maximal schnell</item>
+    </string-array>
+   <string name="choose_profile">Profilwählen</string>
+    <string name="category_personal">Personalisiert</string>
+    <string name="category_work">Arbeit</string>
+    <string name="development_settings_title">Entwickleroptionen</string>
+    <string name="development_settings_enable">Entwickleroptionen aktivieren</string>
+    <string name="development_settings_summary">Optionen für App-Entwicklung einrichten</string>
+    <string name="development_settings_not_available">Entwickleroptionen für diesen Benutzer nicht verfügbar</string>
+    <string name="vpn_settings_not_available">VPN-Einstellungen für diesen Benutzer nicht verfügbar</string>
+    <string name="tethering_settings_not_available">Tethering-Einstellungen für diesen Benutzer nicht verfügbar</string>
+    <string name="apn_settings_not_available">Namen-Einstellungen von Zugriffsknoten für diesen Benutzer nicht verfügbar</string>
+    <string name="enable_adb">USB-Fehlersuche</string>
+    <string name="enable_adb_summary">Fehlersuchmodus wenn USB verbunden</string>
+    <string name="clear_adb_keys">Autorisierung USB-Fehlersuche aufheben</string>
+    <string name="bugreport_in_power">Power-Menü Fehlerbericht</string>
+    <string name="bugreport_in_power_summary">Option Fehlerbericht in Power-Menü aufnehmen</string>
+    <string name="keep_screen_on">Wach bleiben</string>
+    <string name="keep_screen_on_summary">Bildschirm schaltet beim Laden nicht ab</string>
+    <string name="bt_hci_snoop_log">Bluetooth HCI-Snoop-Log aktivieren</string>
+    <string name="bt_hci_snoop_log_summary">Alle Bluetooth HCI-Pakete in eine Datei schreiben</string>
+    <string name="oem_unlock_enable">OEM-Entsperrung</string>
+    <string name="oem_unlock_enable_summary">Bootloader-Entsperrungerlauben</string>
+    <string name="confirm_enable_oem_unlock_title">OEM-Entsperrungerlauben?</string>
+    <string name="confirm_enable_oem_unlock_text">WARNUNG:GeräteschutzfunktionenfunktionierenaufdiesemGerätnicht,wenndieseEinstellungaktiviertist.</string>
+    <string name="mock_location_app">Pseudo-Standort-Appauswählen</string>
+    <string name="mock_location_app_not_set">KeinePseude-Standort-Appfestgelegt</string>
+    <string name="mock_location_app_set">Pseudostandortapp: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="debug_networking_category">Netzwerke</string>
+    <string name="wifi_display_certification">Zertifizierung Wireless-Display</string>
+    <string name="wifi_verbose_logging">Detaillierte Wi-Fi-Protokollierung aktivieren</string>
+    <string name="wifi_aggressive_handover">Aggressive Wi-Fi-Mobilfunknetz-Übergabe</string>
+    <string name="wifi_allow_scan_with_traffic">Wi-Fi-Roamingscans immer zulassen</string>
+    <string name="mobile_data_always_on">MobileDatenimmeraktiv</string>
+    <string name="bluetooth_disable_absolute_volume">Absolute Lautstärke deaktivieren</string>
+    <string name="wifi_display_certification_summary">Optionen für Zertifizierung Wireless-Display anzeigen</string>
+    <string name="wifi_verbose_logging_summary">Wi-Fi-Protokollierungsstufe erhöhen, per SSID-RSSI in Wi-Fi-Wähler anzeigen</string>
+    <string name="wifi_aggressive_handover_summary">Wenn aktiv, wird die Übergabe der Datenverbindung an das Mobilfunknetz bei geringer Wi-Fi-Feldstärke aggressiver gehandhabt.</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Wi-Fi-Roamingscans gemäß Datentraffic an der Schnittstelle zulassen/unterbinden</string>
+    <string name="select_logd_size_title">Protokoll-Puffergröße</string>
+    <string name="select_logd_size_dialog_title">Protokollgröße je Puffer wählen</string>
+    <string name="select_usb_configuration_title">USB-Konfigurationwählen</string>
+    <string name="select_usb_configuration_dialog_title">USB-Konfigurationwählen</string>
+    <string name="allow_mock_location">Pseudostandorte erlauben</string>
+    <string name="allow_mock_location_summary">Pseudostandorte erlauben</string>
+    <string name="debug_view_attributes">Attribut-Prüfanzeige aktivieren</string>
+    <string name="legacy_dhcp_client_summary">VerwendungdesDHCP-ClientsvonLollipopstattdesneuenAndroid-DHCP-Clients.</string>
+    <string name="mobile_data_always_on_summary">Mobildaten auch bei aktiver Wi-Fi-Verbindung aktiv halten (zur schnellen Netzumschaltung).</string>
+    <string name="adb_warning_title">USB-Fehlersuche erlauben?</string>
+    <string name="adb_warning_message">USB-Fehlersuche ist nur für Entwicklungsarbeiten gedacht- Verwenden Sie es, um Daten zwischen Ihrem Rechner und dem Gerät zu kopieren, Apps ohne Bekanntmachung auf dem Gerät zu installieren oder Log-Daten zu lesen.</string>
+    <string name="adb_keys_warning_message">Zugriff auf USB-Debugging von sämtlichen zuvor autorisierten Computern widerrufen?</string>
+    <string name="dev_settings_warning_title">Entwicklungseinstellungen erlauben?</string>
+    <string name="dev_settings_warning_message">Diese Einstellungen sind nur für Entwicklungsarbeiten gedacht. Sie können das Gerät und die Anwendung beschädigen oder zu unerwartetem Verhalten führen.</string>
+    <string name="verify_apps_over_usb_title">Apps über USB prüfen</string>
+    <string name="verify_apps_over_usb_summary">Installierte Apps über ADB/ADT auf schädliches Verhalten prüfen.</string>
+    <string name="bluetooth_disable_absolute_volume_summary">Deaktiviert die absolute Bluetooth-Lautstärkeregelung bei Problemen mit externen Geräten – wie inakzeptabel hoher Lautstärke oder fehlenden Regelungsmöglichkeiten.</string>
+    <string name="enable_terminal_title">Lokales Terminal</string>
+    <string name="enable_terminal_summary">Terminal-App für den Zugriff auf lokale Shell aktivieren</string>
+    <string name="hdcp_checking_title">HDCP-Prüfung</string>
+    <string name="hdcp_checking_dialog_title">HDCP-Prüfung einstellen</string>
+    <string name="debug_debugging_category">Fehlersuche</string>
+    <string name="debug_app">App zur Fehlersuche wählen</string>
+    <string name="debug_app_not_set">Keine Anwendung für Fehlersuche gewählt</string>
+    <string name="debug_app_set">Anwendung für Fehlersuche: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="select_application">Anwendung auswählen</string>
+    <string name="no_application">Nichts</string>
+    <string name="wait_for_debugger">Auf Debugger warten</string>
+    <string name="wait_for_debugger_summary">Anwendung zur Fehlersuche wartet vor der Ausführung auf Debugger</string>
+    <string name="debug_input_category">Eingang</string>
+    <string name="debug_drawing_category">Zeichnen</string>
+    <string name="debug_hw_drawing_category">Hardware-beschleunigtes Rendern</string>
+    <string name="media_category">Medien</string>
+    <string name="debug_monitoring_category">Überwachung</string>
+    <string name="strict_mode">Strikter Modus aktiviert</string>
+    <string name="strict_mode_summary">Flash Screen, wenn Apps lange den Haupt-Thread benutzen</string>
+    <string name="pointer_location">Zeigerposition</string>
+    <string name="pointer_location_summary">Bildschirm-Overlay zeigt aktuelle Touch-Daten</string>
+    <string name="show_touches">Berührungen anzeigen</string>
+    <string name="show_touches_summary">Visuelle Rückmeldung bei Berührungen anzeigen</string>
+    <string name="show_screen_updates">Oberflächenaktualisierungen anzeigen</string>
+    <string name="show_screen_updates_summary">Flash gesamtes Fenster bei Aktualisierung</string>
+    <string name="show_hw_screen_updates">GPU-Ansichtaktualisierung anzeigen</string>
+    <string name="show_hw_screen_updates_summary">Flash Anzeige im Fenstern, wenn durch GPU gezeichnet.</string>
+    <string name="show_hw_layers_updates">Hardware-Layer-Updates anzeigen</string>
+    <string name="show_hw_layers_updates_summary">Hardware-Layer blinken bei Aktualisierung grün.</string>
+    <string name="debug_hw_overdraw">Fehlersuche GPU-Overdraw</string>
+    <string name="disable_overlays">HW-Overlays deaktivieren</string>
+    <string name="disable_overlays_summary">Beim Bildschirmaufbau immer GPU verwenden</string>
+    <string name="simulate_color_space">Farbraum simulieren</string>
+    <string name="enable_opengl_traces_title">OpenGL-Traces aktivieren</string>
+    <string name="usb_audio_disable_routing">USB-Audio-Routing deaktivieren</string>
+    <string name="usb_audio_disable_routing_summary">Auto-Routen zu USB-Audiogeräten deaktivieren</string>
+    <string name="debug_layout">Layout-Grenzen anzeigen</string>
+    <string name="debug_layout_summary">Clip-Grenzen, Ränder usw. anzeigen</string>
+    <string name="force_rtl_layout_all_locales">RTL-Layout-&gt;Richtung erzwingen</string>
+    <string name="force_rtl_layout_all_locales_summary">Für alle lokalen Bildschirm-Layout-Richtung zu RTL erzwingen</string>
+    <string name="show_cpu_usage">CPU-Nutzung anzeigen</string>
+    <string name="show_cpu_usage_summary">Bildschirm-Overlay zeigt aktuelle CPU-Nutzung</string>
+    <string name="force_hw_ui">GPU-Rendering erzwingen</string>
+    <string name="force_hw_ui_summary">GPU-Nutzung für 2. Zeichnen erzwingen</string>
+    <string name="force_msaa">4x MSAA erzwingen</string>
+    <string name="force_msaa_summary">4x MSAA in OpenGL ES 2.0 Apps aktivieren</string>
+    <string name="show_non_rect_clip">Nicht rechtwinklige Clip-Funktionen debuggen</string>
+    <string name="track_frame_time">Profil GPU-Rendering</string>
+    <string name="window_animation_scale_title">Skalierung Fensteranimationen</string>
+    <string name="transition_animation_scale_title">Transition animation scale</string>
+    <string name="animator_duration_scale_title">Animator duration scale</string>
+    <string name="overlay_display_devices_title">Zweit-Display simulieren</string>
+    <string name="debug_applications_category">Apps</string>
+    <string name="immediately_destroy_activities">Keine Aktivitätenprotokollierung</string>
+    <string name="immediately_destroy_activities_summary">Aktivitäten löschen, sobald Benutzer sie verlässt</string>
+    <string name="app_process_limit_title">Hintergrundproz. Grenzw.</string>
+    <string name="show_all_anrs">Alle ANRs anzeigen</string>
+    <string name="show_all_anrs_summary">App reagiert nicht für Hintergrund-Apps anzeigen</string>
+    <string name="force_allow_on_external">Apps-Externspeicherung erzwingen zulassen</string>
+    <string name="force_allow_on_external_summary">Ermöglicht, jede App unabhängig von Manifestwerten in externem Speicher abzulegen.</string>
+    <string name="force_resizable_activities">Größenänderungsmöglichkeit von Aktivitäten erzwingen</string>
+    <string name="force_resizable_activities_summary">Ermöglicht von Manifestwerten unabhängige Multi-Fenster-Größenänderungen sämtlicher Aktivitäten.</string>
+    <string name="enable_freeform_support">Freeform-Fenster aktivieren</string>
+    <string name="enable_freeform_support_summary">Ermöglicht Unterstützung experimenteller Freeform-Fenster.</string>
+    <string name="local_backup_password_title">Desktop Sicher.-Kennwort</string>
+    <string name="local_backup_password_summary_none">Desktop-Komplettsicherungen sind derzeit nicht geschützt</string>
+    <string name="local_backup_password_summary_change">Zum Ändern oder Entfernen des Kennwortes für Desktop-Komplettsicherungen antippen</string>
+    <string name="local_backup_password_toast_success">Neues Sicherungs-Kennwort eingerichtet</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">Neues Kennwort und Kennwortbestätigung sind nicht identisch</string>
+    <string name="local_backup_password_toast_validation_failure">Einrichten des Sicherungs-Kennworts fehlgeschlagen</string>
+  <string-array name="color_mode_names">
+    <item>"Brillant (Standardeinstellung)"</item>
+    <item>"Natürlich"</item>
+    <item>"Standard"</item>
+  </string-array>
+  <string-array name="color_mode_descriptions">
+    <item>"Verstärkte Farben"</item>
+    <item>"Natürliche Farben wie vom Auge wahrgenommen"</item>
+    <item>"Für digitale Inhalte optimierte Farben"</item>
+  </string-array>
+    <string name="inactive_apps_title">InaktiveApps</string>
+    <string name="inactive_app_inactive_summary">Inaktiv. Zum Umschalten antippen.</string>
+    <string name="inactive_app_active_summary">Aktiv. Zum Umschalten antippen.</string>
+    <string name="runningservices_settings_title">Ausgeführte Dienste</string>
+    <string name="runningservices_settings_summary">Anzeigen und Steuern von momentan ausgeführten Diensten</string>
+    <string name="enable_webview_multiprocess">Multiprozess-WebView</string>
+    <string name="enable_webview_multiprocess_desc">WebView-Renderer separat ausführen</string>
+    <string name="select_webview_provider_title">WebView-Implementierung</string>
+    <string name="select_webview_provider_dialog_title">WebView-Implementierung festlegen</string>
+    <string name="select_webview_provider_toast_text">Diese Auswahl ist nicht mehr gültig. Erneut versuchen.</string>
+    <string name="convert_to_file_encryption">In Dateiverschlüsselung umwandeln</string>
+    <string name="convert_to_file_encryption_enabled">Umwandeln \u2026</string>
+    <string name="convert_to_file_encryption_done">Dateiverschlüsselung bereits aktiv</string>
+    <string name="title_convert_fbe">In dateibasierte Verschlüsselung umwandeln</string>
+    <string name="convert_to_fbe_warning">Datenpartition in dateibasierte Verschlüsselung umwandeln.\n!!Warnung!! Dabei werden all Ihre Daten gelöscht.\nDiese Funktion befindet sich im Alphastatus, funktioniert eventuell nicht fehlerfrei. Tippen Sie zum Fortsetzen auf „Löschen und umwandeln …“.</string>
+    <string name="button_convert_fbe">Löschen und umwandeln \u2026</string>
+    <string name="picture_color_mode">"Farbmodus für Bilder"</string>
+    <string name="picture_color_mode_desc">"sRGB verwenden"</string>
+    <string name="daltonizer_mode_disabled">Deaktiviert</string>
+    <string name="daltonizer_mode_monochromacy">Einfarbigkeit</string>
+    <string name="daltonizer_mode_deuteranomaly">Deuteranomal (rot-grün)</string>
+    <string name="daltonizer_mode_protanomaly">Protanomal (rot-grün)</string>
+    <string name="daltonizer_mode_tritanomaly">Tritanomal (blau-gelb)</string>
+    <string name="accessibility_display_daltonizer_preference_title">Farbkorrektur</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Funktion ist im Versuchsstadium und kann die Leistung beeinflussen.</string>
+    <string name="daltonizer_type_overridden">Überschrieben durch <xliff:g id="title" example="Simulatecolorspace">%1$s</xliff:g></string>
+    <string name="power_remaining_duration_only">Noch etwa <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_remaining_duration_only_short">Noch <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="power_discharging_duration"><xliff:g id="level">%1$s</xliff:g> – noch etwa <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_discharging_duration_short"><xliff:g id="level">%1$s</xliff:g> – noch <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g> bis vollständig</string>
+    <string name="power_charging_duration_short"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging_duration_ac"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g> bis vollständig im Netzbetrieb</string>
+    <string name="power_charging_duration_ac_short"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging_duration_usb"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g> bis vollständig über USB</string>
+    <string name="power_charging_duration_usb_short"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g> bis vollständig von Wireless</string>
+    <string name="power_charging_duration_wireless_short"><xliff:g id="level">%1$s</xliff:g> – <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="battery_info_status_unknown">Unbekannt</string>
+    <string name="battery_info_status_charging">Wirdgeladen</string>
+    <string name="battery_info_status_charging_ac">(Netzstrom)</string>
+    <string name="battery_info_status_charging_ac_short">Wirdgeladen</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
+    <string name="battery_info_status_charging_usb_short">Wirdgeladen</string>
+    <string name="battery_info_status_charging_wireless">(kabellos)</string>
+    <string name="battery_info_status_charging_wireless_short">Wirdgeladen</string>
+    <string name="battery_info_status_discharging">Nicht ladend</string>
+    <string name="battery_info_status_not_charging">Nicht ladend</string>
+    <string name="battery_info_status_full">Voll</string>
+    <string name="disabled_by_admin_summary_text">Vom Admin kontrolliert</string>
+    <string name="enabled_by_admin">Vom Administrator aktiviert</string>
+    <string name="disabled_by_admin">Vom Administrator deaktiviert</string>
+    <string name="home">Einstellungen-Startseite</string>
+  <string-array name="battery_labels">
+    <item>"0 %"</item>
+    <item>"50 %"</item>
+    <item>"100 %"</item>
+  </string-array>
+    <string name="charge_length_format"><xliff:g name="time" example="3hours">%1$s</xliff:g> zuvor</string>
+    <string name="remaining_length_format"><xliff:g name="time" example="3hours">%1$s</xliff:g> übrig</string>
+    <string name="screen_zoom_summary_small">Klein</string>
+    <string name="screen_zoom_summary_default">Vorgabe</string>
+    <string name="screen_zoom_summary_large">Groß</string>
+    <string name="screen_zoom_summary_very_large">Größer</string>
+    <string name="screen_zoom_summary_extremely_large">Maximal groß</string>
+    <string name="screen_zoom_summary_custom">Benutzerdefiniert (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
+    <string name="help_feedback_label">Hilfe &amp; Feedback</string>
+</resources>

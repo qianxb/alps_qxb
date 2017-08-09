@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="wifi_status">
+    <item></item>
+    <item>Suchen\u2026</item>
+    <item>Verbinden\u2026</item>
+    <item>Authentisieren\u2026</item>
+    <item>IP-Adresse abrufen\u2026</item>
+    <item>Verbunden</item>
+    <item>Angehalten</item>
+    <item>Trennen\u2026</item>
+    <item>Getrennt</item>
+    <item>Erfolglos</item>
+    <item>Blockiert</item>
+    <item>Schlechte Verbindung wird zeitweise gemieden</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item></item>
+    <item>Suchen\u2026</item>
+    <item>Mit %1$s\u2026 verbinden</item>
+    <item>Mit %1$s\u2026 authentisieren</item>
+    <item>IP-Adresse von %1$s\u2026 abrufen</item>
+    <item>Mit %1$s verbunden</item>
+    <item>Angehalten</item>
+    <item>Von %1$s\u2026 trennen</item>
+    <item>Getrennt</item>
+    <item>Erfolglos</item>
+    <item>Blockiert</item>
+    <item>Schlechte Verbindung wird zeitweise gemieden</item>
+  </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nie prüfen</item>
+        <item>Nur auf DRM-Inhalte prüfen</item>
+        <item>Immer prüfen</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nie HDCP-Prüfung verwenden</item>
+        <item>HDCP-Prüfung nur für DRM-Inhalte verwenden</item>
+        <item>Immer HDCP-Prüfung verwenden</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>Off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Off</item>
+        <item>64K über Log-Puffer</item>
+        <item>256K über Log-Puffer</item>
+        <item>1M über Log-Puffer</item>
+        <item>4M über Log-Puffer</item>
+        <item>16M über Log-Puffer</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationstempo 0,5 x</item>
+        <item>Animationstempo 1 x</item>
+        <item>Animationstempo 1,5 x</item>
+        <item>Animationstempo 2 x</item>
+        <item>Animationstempo 5 x</item>
+        <item>Animationstempo 10 x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationstempo 0,5 x</item>
+        <item>Animationstempo 1 x</item>
+        <item>Animationstempo 1,5 x</item>
+        <item>Animationstempo 2 x</item>
+        <item>Animationstempo 5 x</item>
+        <item>Animationstempo 10 x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationstempo 0,5 x</item>
+        <item>Animationstempo 1 x</item>
+        <item>Animationstempo 1,5 x</item>
+        <item>Animationstempo 2 x</item>
+        <item>Animationstempo 5 x</item>
+        <item>Animationstempo 10 x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Keine</item>
+        <item>480P</item>
+        <item>480p(sicher)</item>
+        <item>720P</item>
+        <item>720p(sicher)</item>
+        <item>1080p</item>
+        <item>1080p(sicher)</item>
+        <item>4K</item>
+        <item>4K(sicher)</item>
+        <item>4K(hochskaliert)</item>
+        <item>4K(hochskaliert,sicher)</item>
+        <item>720p,1080p(Dualbildschirm)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Keine</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Aufrufstapel an glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Off</item>
+        <item>Nichtrechteckige Clip-Region in Blau zeichnen</item>
+        <item>Getestete Zeichenbefehle in Grün hervorheben</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Off</item>
+        <item>Als Balken darstellen</item>
+        <item>"In adb shell dumpsys gfxinfo"</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Off</item>
+        <item>Überzeichnungsbereiche anzeigen</item>
+        <item>Deuteranomalie-Bereiche anzeigen</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardlimit</item>
+        <item>Keine Hintergrundprozesse</item>
+        <item>Maximal 1 Prozess</item>
+        <item>Maximal 2 Prozesse</item>
+        <item>Maximal 3 Prozesse</item>
+        <item>Maximal 4 Prozesse</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Wirdgeladen</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Audioquelle</item>
+        <item>MIDI</item>
+    </string-array>
+</resources>

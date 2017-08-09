@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- M: Add for System start -->
+    <!-- M: Add for Streaming -->
+    <string name="mtk_rtsp_name" translatable="false">Streaming</string>
+    <string name="mtk_rtsp_to_proxy" translatable="false">10.0.0.172</string>
+    <string name="mtk_rtsp_netinfo" translatable="false">EGPRS,10,100</string>
+    <string name="mtk_rtsp_to_napid" translatable="false">CMCC WAP</string>
+    <string name="mtk_rtsp_max_udp_port" translatable="false">65535</string>
+    <string name="mtk_rtsp_min_udp_port" translatable="false">1024</string>
+
+    <!-- M: M: Add for HDMI -->
+    <integer name="def_hdmi_enable_status">1</integer>
+    <integer name="def_hdmi_video_resolution">100</integer>
+    <integer name="def_hdmi_video_scale">0</integer>
+    <integer name="def_hdmi_color_space">0</integer>
+    <integer name="def_hdmi_deep_color">1</integer>
+    <integer name="def_hdmi_cable_plugged">0</integer>
+
+    <!-- M: Add for enable/disable ANR mechanism from ADB command -->
+    <integer name="anr_debugging_mechanism">1</integer>
+    <integer name="anr_debugging_mechanism_status">0</integer>
+
+    <!-- M: Add for SIM-Mode -->
+    <integer name="def_four_sim_mode">15</integer>
+    <integer name="def_triple_sim_mode">7</integer>
+    <integer name="def_dual_sim_mode">3</integer>
+    <integer name="def_single_sim_mode">1</integer>
+
+    <!-- M: Add for Voice-wake-up -->
+    <integer name="def_voice_unlock_mode">0</integer>
+    <integer name="def_voice_wakeup_mode">1</integer>
+
+    <bool name="def_ipo_setting">true</bool>
+
+    <integer name="wifi_select_ssid_type">0</integer>
+
+    <integer name="def_voice_call_reject_mode">0</integer>
+
+    <integer name="def_ivsr_setting">1</integer>
+
+    <integer name="def_tether_ipv6_feature">0</integer>
+
+    <integer name="def_ct_time_display_mode">0</integer>
+
+    <integer name="def_bg_power_saving">1</integer>
+    <!-- M: Add for System end -->
+
+    <!-- M: Add for Global start -->
+    <bool name="def_auto_time_gps">false</bool>
+
+    <integer name="def_telephony_misc_feature_config">6</integer>
+    <!-- M: Add for Global end -->
+    <!-- M: Add for AOD settings -->
+    <integer name="def_doze_mode">0</integer>
+    <!-- M: Add for AOD settings -->
+</resources>

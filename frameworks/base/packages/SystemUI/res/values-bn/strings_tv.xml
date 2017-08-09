@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2016, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <eat-comment/>
+    <string name="pip_close">আইপিআই বন্ধ করুন</string>
+    <string name="pip_fullscreen">পূর্ণাঙ্গ স্ক্রিন</string>
+    <string name="pip_play">বাজান</string>
+    <string name="pip_pause">বিরতি দিন</string>
+    <string name="pip_hold_home">আইপিআই নিয়ন্ত্রণ করতে <b>HOME</b> ধরে রাখুন</string>
+    <eat-comment/>
+    <string name="pip_onboarding_title">ছবির ভেতর ছবি</string>
+    <string name="pip_onboarding_description">এটি আপনার ভিডিওটিকে দেখাতে থাকবে যতক্ষণ না আপনি অন্য আরেকটি প্লে করছেন। এটিকে নিয়ন্ত্রণ করার জন্য <b>HOME</b> চাপ দিয়ে ধরে রাখুন।</string>
+    <string name="pip_onboarding_button">পেয়েছি</string>
+    <string name="recents_tv_dismiss">বাতিলকরুন</string>
+</resources>

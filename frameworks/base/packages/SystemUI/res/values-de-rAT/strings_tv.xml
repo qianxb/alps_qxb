@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2016, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <eat-comment/>
+    <string name="pip_close">BiB schließen</string>
+    <string name="pip_fullscreen">Vollbildschirm</string>
+    <string name="pip_play">Wiedergeben</string>
+    <string name="pip_pause">"Pause"</string>
+    <string name="pip_hold_home">Zur BiB-Steuerung <b>STARTSEITE</b> gedrückt halten</string>
+    <eat-comment/>
+    <string name="pip_onboarding_title">Bild-im-Bild</string>
+    <string name="pip_onboarding_description">Dies hält Ihr Video permanent angezeigt, bis Sie ein Anderes abspielen. Zur Steuerung halten Sie <b>STARTSEITE</b> gedrückt.</string>
+    <string name="pip_onboarding_button">HAB ES!</string>
+    <string name="recents_tv_dismiss">Ablehnen</string>
+</resources>

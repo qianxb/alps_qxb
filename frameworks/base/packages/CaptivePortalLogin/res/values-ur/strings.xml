@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaptivePortalLogin</string>
+    <string name="action_use_network">اس نیٹ ورک کو جوں کا توں استعمال کریں</string>
+    <string name="action_do_not_use_network">اس نیٹ ورک کا استعمال نہ کریں</string>
+    <string name="action_bar_label">نیٹورکمیںسائنانکریں</string>
+    <string name="ssl_error_warning"/>
+    <string name="ssl_error_example">مثالکےطورپر،لاگانصفحہدکھائیگئیتنظیمسےوابستہنہیںہوسکتا۔</string>
+    <string name="ssl_error_continue">بہرصورتبراؤزرکےذریعہجاریرکھیں</string>
+</resources>

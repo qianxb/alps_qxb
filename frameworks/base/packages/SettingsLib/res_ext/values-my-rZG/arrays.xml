@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2015 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="wifi_status">
+    <item></item>
+    <item>စကင္ဖတ္ေနသည္\u2026</item>
+    <item>  %1$sသို႔ ခ်ိတ္ဆက္ေနသည္\u2026 </item>
+    <item>စစ္မွန္ေၾကာင္း အတည္ျပဳေနသည္\u2026</item>
+    <item>IP လိပ္စာကို ရယူေနသည္\u2026</item>
+    <item>ခ်ိတ္ဆက္ၿပီး</item>
+    <item>ဆိုင္းထားသည္</item>
+    <item>ခ်ိတ္ဆက္မႈကို ျဖတ္ေနသည္\u2026</item>
+    <item>ခ်ိတ္ဆက္မႈျပတ္ေတာက္ခဲ့သည္</item>
+    <item>မေအာင္ျမင္ပါ</item>
+    <item>ပိတ္ဆို႔ခဲ့သည္</item>
+    <item>အားနည္းေသာ ခ်ိတ္ဆက္မႈကို ယာယီ ေရွာင္ရွားေနသည္</item>
+  </string-array>
+  <string-array name="wifi_status_with_ssid">
+    <item></item>
+    <item>စကင္ဖတ္ေနသည္\u2026</item>
+    <item>  %1$sသို႔ ခ်ိတ္ဆက္ေနသည္\u2026 </item>
+    <item>  %1$sႏွင့္ စစ္မွန္ေၾကာင္း အတည္ျပဳေနသည္\u2026 </item>
+    <item>  %1$sမွ IP လိပ္စာကို ရယူေနသည္\u2026 </item>
+    <item>  %1$sသို႔ ခ်ိတ္ဆက္ခဲ့သည္ </item>
+    <item>ဆိုင္းထားသည္</item>
+    <item>  %1$sမွ ျဖတ္ေနသည္\u2026 </item>
+    <item>ခ်ိတ္ဆက္မႈျပတ္ေတာက္ခဲ့သည္</item>
+    <item>မေအာင္ျမင္ပါ</item>
+    <item>ပိတ္ဆို႔ခဲ့သည္</item>
+    <item>အားနည္းေသာ ခ်ိတ္ဆက္မႈကို ယာယီ ေရွာင္ရွားေနသည္</item>
+  </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>ဘယ္ေတာ့မွ် မစစ္ေဆးပါႏွင့္</item>
+        <item>DRM အေၾကာင္းအရာအတြက္သာ စစ္ေဆးပါ</item>
+        <item>အျမဲတမ္း စစ္ေဆးပါ</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP စစ္ေဆးျခင္းကို ဘယ္ေတာ့မွ် မသံုးပါႏွင့္</item>
+        <item>HDCP စစ္ေဆးျခင္းကို DRM အေၾကာင္းအရာအတြက္သာ စစ္ေဆးပါ</item>
+        <item>HDCP စစ္ေဆးျခင္းကို အျမဲတမ္း စစ္ေဆးပါ</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>ပိတ္သည္</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>ပိတ္သည္</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>ပိတ္သည္</item>
+        <item>64K ေလာ့ ဘာဖားတြက္</item>
+        <item>256K ေလာ့ ဘာဖားတြက္</item>
+        <item>1M ေလာ့ ဘာဖားတြက္</item>
+        <item>4M ေလာ့ ဘာဖားတြက္</item>
+        <item>16M ေလာ့ ဘာဖားတြက္</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>အဲန္နီေမးရွင္း ပိတ္ထားသည္</item>
+        <item>အဲန္နီေမးရွင္း စေကး .၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁.၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၂x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁၀x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>အဲန္နီေမးရွင္း ပိတ္ထားသည္</item>
+        <item>အဲန္နီေမးရွင္း စေကး .၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁.၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၂x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁၀x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>အဲန္နီေမးရွင္း ပိတ္ထားသည္</item>
+        <item>အဲန္နီေမးရွင္း စေကး .၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁.၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၂x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၅x</item>
+        <item>အဲန္နီေမးရွင္း စေကး ၁၀x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>အသံတိတ္</item>
+        <item>480P</item>
+        <item>480p(လုံျခဳံမႈ)</item>
+        <item>720P</item>
+        <item>720p(လုံျခဳံမႈ)</item>
+        <item>1080P</item>
+        <item>1080p(လုံျခဳံမႈ)</item>
+        <item>4K</item>
+        <item>4K(လုံျခဳံမႈ)</item>
+        <item>4K(အထက္ဆင့္)</item>
+        <item>4K(အထက္ဆင့္၊လုံျခဳံမႈ)</item>
+        <item>720p၊1080p(စခရင္ႏွစ္ခု)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>အသံတိတ္</item>
+        <item>မွတ္တမ္း စုစည္းခ်က္မ်ား</item>
+        <item>လံုျခံဳေရးအသံုးျပဳခ်က္ (ဂရပ္ဖစ္)</item>
+        <item>glအမွားရယူခ်က္ရွိ ဖုန္းေခၚဆိုမႈ မွတ္ဥာဏ္ဧရိယာ </item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>ပိတ္သည္</item>
+        <item>စတုဂံမဟုတ္ေသာ ကလစ္အပိုင္းကို အျပာေရာင္ႏွင့္ဆြဲပါ</item>
+        <item>စမ္းသပ္ေရးဆြဲျခင္း အမိန္႔မ်ားကို အစိမ္းေရာင္ႏွင့္ အသားေပးေဖာ္ျပပါ </item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>ပိတ္သည္</item>
+        <item>မ်က္ႏွာျပင္ေပၚတြင္ ဘားမ်ားအျဖစ္ </item>
+        <item>adb shell dumpsys gfxinfo တြင္</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>ပိတ္သည္</item>
+        <item>အားစိုက္သည့္ ဧရိယာ ျပပါ</item>
+        <item>အေရာင္မျမင္မႈအတြက္ ဧရိယာ ျပပါ</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>စံကန္႔သတ္ခ်က္</item>
+        <item>ေနာက္ခံ လုပ္ငန္းမ်ားမရွိပါ</item>
+        <item>အမ်ားဆံုး လုပ္ငန္း ၁ ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္း ၂ ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္း ၃ ခု</item>
+        <item>အမ်ားဆံုး လုပ္ငန္း ၄ ခု</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>အားသြင္းေနသည္</item>
+        <item>MTP (မီဒီယာ ေရႊ႕ေျပာင္းသည့္ ပ႐ိုတိုေကာ)</item>
+        <item>PTP (႐ုပ္ပံု ေရႊ႕ေျပာင္းသည့္ ပ႐ိုတိုေကာ)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>အသံရင္းျမစ္</item>
+        <item>MIDI</item>
+    </string-array>
+</resources>
