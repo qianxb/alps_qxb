@@ -1,0 +1,4 @@
+
+config MTK_SC7660
+	bool "sc7660 for MediaTek package"
+	default n
